@@ -1,115 +1,123 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Zulip</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+      <meta charset="utf-8">
+      <title>Zulip</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <div id="header">
-            <div class="container">
-                <div class="column-left">
-                    <div id="logo">zulip</div>
-                </div>
-                <div class="column-right">
-                    <ul class="nav-menu">
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Docs</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Contribute</a></li>
-                        <li class="highlighted"><a href="#">Get Started</a></li>
-                    </ul>
-                </div>
-            </div>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="column-left">
+          <div id="logo">zulip</div>
         </div>
-        <div class="tagline">
-            It's like Slack, but better and open-source.
+        <div class="column-right">
+          <ul class="nav-menu">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contribute</a></li>
+            <li class="highlighted"><a href="#">Get Started</a></li>
+          </ul>
         </div>
+      </div>
+    </div>
+
+    <div class="tagline">
+      It's like Slack, but better and open-source.
+    </div>
+    <div class="container">
+      <img id="screenshot" src="images/laptop-screenshot.png"/>
+    </div>
+    <div class="tagline" style="font-size: 30px; color: #666">
+      Chat never felt this good before.
+    </div>
+    <div class="container call-to-action">
+      <a class="button">Get started</a> or <a class="button-link" href="#">check out the features</a>
+    </div>
+
+    <div id="features-pitch">
+      <h1>Here's why you'll love it:</h1>
+
+      <div class="feature">
         <div class="container">
-            <img id="screenshot" src="images/laptop-screenshot.png"/>
+          <div class="feature-img">
+            <img src="images/threads.png" />
+          </div>
+          <div class="feature-box">
+              <h2>Make sense of your messages</h2>
+              <p>Every conversation in Zulip has a topic, so it’s easy to keep conversations straight. Are your coworkers discussing a software bug and the content of your website at the same time? No problem.</p>
+          </div>
         </div>
-        <div class="tagline" style="font-size: 30px; color: #666">
-            Chat never felt this good before.
+      </div>
+
+      <div class="feature">
+        <div class="container">
+          <div class="feature-img">
+            <img src="images/important-things.png" />
+          </div>
+          <div class="feature-box">
+            <h2>Easily read just the important things.</h2>
+            <p>Sometimes, important things get discussed when you’re not around. Unfortunately, so do a lot of unimportant things.</p>
+            <p>Narrowing by stream or topic lets you focus on that important customer project without having to read about how Jim’s guitar lessons are going.</p>
+          </div>
         </div>
-        <div class="container call-to-action">
-            <a class="button">Get started</a> or <a class="button-link" href="#">check out the features</a>
+      </div>
+
+      <div class="feature">
+        <div class="container">
+          <div class="feature-img">
+            <img src="images/search.png" />
+          </div>
+          <div class="feature-box">
+            <h2>Better search than Gmail.</h2>
+            <p>An impressive amount of knowledge lives in your chat system. Zulip’s powerful and fast search will delight you with how quickly you can find exactly what you’re looking for.</p>
+          </div>
         </div>
-        <div id="features-pitch">
-            <h1>Here's why you'll love it:</h1>
-            <div class="feature">
-                <div class="container">
-                    <div class="feature-img">
-                        <img src="images/threads.png" />
-                    </div>
-                    <div class="feature-box">
-                        <h2>Make sense of your messages</h2>
-                        <p>Every conversation in Zulip has a topic, so it’s easy to keep conversations straight. Are your coworkers discussing a software bug and the content of your website at the same time? No problem.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="container">
-                    <div class="feature-img">
-                        <img src="images/important-things.png" />
-                    </div>
-                    <div class="feature-box">
-                        <h2>Easily read just the important things.</h2>
-                        <p>Sometimes, important things get discussed when you’re not around. Unfortunately, so do a lot of unimportant things.</p>
-                        <p>Narrowing by stream or topic lets you focus on that important customer project without having to read about how Jim’s guitar lessons are going.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="container">
-                    <div class="feature-img">
-                        <img src="images/search.png" />
-                    </div>
-                    <div class="feature-box">
-                        <h2>Better search than Gmail.</h2>
-                        <p>An impressive amount of knowledge lives in your chat system. Zulip’s powerful and fast search will delight you with how quickly you can find exactly what you’re looking for.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="container">
-                    <div class="feature-img">
-                        <img src="images/integrations.png" />
-                    </div>
-                    <div class="feature-box">
-                        <h2>Integrations that don’t intrude.</h2>
-                        <p>Zulip has many integrations and a powerful API to match. But here’s where it gets interesting: thanks to how Zulip categorizes messages, automated messages never overwhelm you. As with any topic in Zulip, they’re easy to focus on, skim, defer to later, or ignore—as appropriate.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="container">
-                    <div class="feature-img">
-                        <img src="images/technical.png" />
-                    </div>
-                    <div class="feature-box">
-                        <h2>As technical as you want to be.</h2>
-                        <p>Keyboard shortcuts? Check.<br/>
-                        Syntax highlighting? Check.<br/>
-                        Discuss code and technical topics with ease.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="container">
-                    <div class="feature-img">
-                        <img src="images/features.png" />
-                    </div>
-                    <div class="feature-box">
-                        <h2>...and all the obvious stuff too.</h2>
-                        <p>Drag-and-drop file uploads, image pasting, group private messages, audible notifications, missed-message emails, desktop apps, and everything else you might want. Including emoji, naturally.</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+
+      <div class="feature">
+        <div class="container">
+          <div class="feature-img">
+            <img src="images/integrations.png" />
+          </div>
+          <div class="feature-box">
+            <h2>Integrations that don’t intrude.</h2>
+            <p>Zulip has many integrations and a powerful API to match. But here’s where it gets interesting: thanks to how Zulip categorizes messages, automated messages never overwhelm you. As with any topic in Zulip, they’re easy to focus on, skim, defer to later, or ignore—as appropriate.</p>
+          </div>
         </div>
-    </body>
+      </div>
+
+      <div class="feature">
+        <div class="container">
+          <div class="feature-img">
+            <img src="images/technical.png" />
+          </div>
+          <div class="feature-box">
+            <h2>As technical as you want to be.</h2>
+            <p>Keyboard shortcuts? Check.<br/>
+            Syntax highlighting? Check.<br/>
+            Discuss code and technical topics with ease.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="feature">
+        <div class="container">
+          <div class="feature-img">
+            <img src="images/features.png" />
+          </div>
+          <div class="feature-box">
+            <h2>...and all the obvious stuff too.</h2>
+            <p>Drag-and-drop file uploads, image pasting, group private messages, audible notifications, missed-message emails, desktop apps, and everything else you might want. Including emoji, naturally.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
