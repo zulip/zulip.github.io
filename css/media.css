@@ -1,0 +1,104 @@
+/* Media queries */
+@media (min-width: 600px) {
+	header {
+		height: 50px;
+	}
+
+	header ul {
+		vertical-align: top;
+		padding: 0;
+		line-height: 50px;
+	}
+
+	header .downloads {
+		display: block;
+		padding-left: 40px;
+	}
+
+	header nav ul {
+		display: inline-block;
+		float: right;
+		margin: 0 auto;
+	}
+
+	#logo {
+		float: left;
+		color: #333;
+		font-size: 1.6em;
+		line-height: 50px;
+		width: auto;
+	}
+
+	.box {
+		display: inline-block;
+	}
+
+	.half {
+		width: 49%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width: 1000px;
+	}
+
+	.feature-box {
+		float: right;
+	}
+
+	.features .container {
+		text-align: left;
+		width: 950px;
+	}
+
+	.features section:nth-child(odd) .feature-box {
+		float: left;
+	}
+
+	.features section:nth-child(odd) .feature-img {
+		float: right;
+	}
+
+	.features section .feature-img {
+		float: left;
+	}
+
+	/* Server page */
+	.docs nav {
+		float: right;
+		display: block;
+		vertical-align: top;
+	}
+	
+	.docs a:hover {
+		color: #3276b1;
+	}
+
+	.docs nav a:hover::before {
+		position: relative;
+		content: '>';
+		left: -0.5em;
+		margin-left: -0.5em;
+		float: left;
+	}
+
+	.docs nav ul {
+		list-style-type: none;
+		padding: 0;
+		font-size: 1em;
+	}
+
+	.docs nav li {
+		padding-bottom: 2px;
+	}
+
+	.docs nav li a {
+		color: #666;
+	}
+
+	.docs article {
+		display: block;
+		width: 70%;
+	}
+}

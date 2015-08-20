@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zulip - Run your own server</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header>
+      <div class="container">
+        <div id="logo">
+          <a href="index.html"><img src="images/logos/zulip-icon-512x512.png" />zulip</a>
+        </div>
+        <nav>
+          <ul class="downloads">
+            <li><a href="server.html">Server</a></li>
+            <li><a href="client.html">Clients</a></li>
+          </ul>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contribute.html">Contribute</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div style="background: #ccffcc;">
+      <div class="container" style="padding: 5px 0">
+          <h2>Run your own Zulip server</h2>
+      </div>
+    </div>
+
+    <div class="container docs">
+      <nav>
+        <ul>
+          <li><a href="#">About Zulip server</a></li>
+          <li><a href="#">Unpack and setup on your box</a></li>
+          <li><a href="#">Migrate your existing Zulip data</a></li>
+          <li><a href="#">Troubleshooting</a></li>
+        </ul>
+      </nav>
+      <article>
+        <section style="text-align: left; color: #000">
+          <h3>About Zulip server</h3>
+          <p>Zulip server is a Linux script that runs the Zulip Python app, Postgres database, and queuing server.</p>
+          <p>Once up and running, users in your organization can use the web app hosted on your domain, or download a client app from <a href="index.html">zulip.org</a></p>
+          <p>Your best bet right now is running Zulip on Ubuntu Trusty on AWS EC2.</p>
+        </section>
+
+        <section style="text-align: left; color: #000">
+          <h3>Unpack and setup on your box</h3>
+          <p>Note: the server must be run on a Linux machine as root.</p>
+
+          <div class="terminal">
+              cd /root/<br/>
+              curl -L https://github.com/zulip-server-1.2.1.tar.gz | tar xf<br/>
+              ./scripts/setup/install
+          </div>
+        </section>
+
+        <section style="text-align: left; color: #000">
+          <h3>Migrate your existing Zulip data</h3>
+          <p>If you've already been running Zulip enterprise (or using a hosted Zulip instance), we've got you covered.</p>
+          <p>Download the Zulip migration tool <a href="#">here</a>.</p>
+        </section>
+
+        <section style="text-align: left; color: #000">
+          <h3>Troubleshooting</h3>
+          <p>Lorem ipsum</p>
+        </section>
+      </article>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Licensed under <a href="#">License</a>
+      <ul>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Contributors</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
