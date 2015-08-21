@@ -41,41 +41,49 @@
     <div class="container docs">
       <nav>
         <ul>
-          <li><a href="#">About Zulip server</a></li>
-          <li><a href="#">Requirements</a></li>
-          <li><a href="#">Unpack and setup on your box</a></li>
-          <li><a href="#">Migrate your existing Zulip data</a></li>
-          <li><a href="#">Troubleshooting</a></li>
+          <li><a href="#about">About Zulip server</a></li>
+          <li><a href="#warning">A word of warning</a></li>
+          <li>
+            <a href="#install">Install the production server</a>
+            <ul>
+              <li><a href="#download">Download the tarball</a></li>
+              <li><a href="#ssl">Install SSL certs</a></li>
+              <li><a href="#setup">Run the setup script</a></li>
+              <li><a href="#configure">Configure Zulip</a></li>
+              <li><a href="#initdb">Initialize the database</a></li>
+            </ul>
+          </li>
+          <li><a href="#migrate">Migrate your existing Zulip data</a></li>
         </ul>
       </nav>
       <article>
         <section>
-          <h3>About Zulip server</h3>
+          <a name="about"><h3>About Zulip server</h3></a>
           <p>Zulip server is a Linux script that runs the Zulip Python app, Postgres database, and queuing server.</p>
           <p>Once up and running, users in your organization can use the web app hosted on your domain, or download a client app from <a href="index.html">zulip.org</a></p>
           <p>Your best bet right now is running Zulip on Ubuntu 12.04 LTS (Precise Pandolin) on AWS EC2.</p>
         </section>
 
         <section>
-          <h3>A word of warning</h3>
+          <a name="warning"><h3>A word of warning</h3></a>
           <p>Running Zulip in production is a little difficult right now. We're working on cleaning up the production process but please keep this in mind as you work through the following steps!</p>
         </section>
 
         <section>
-          <h3>Install the production server</h3>
+          <a name="install"><h3>Install the production server</h3></a>
           <section>
-            <h4>Download the tarball</h4>
+            <a name="download"><h4>Download the tarball</h4></a>
             <p>Download the <a href="#">binary tarball</a> and extract it to /root/zulip</p>
           </section>
           <section>
-            <h4>Install SSL certs</h4>
+            <a name="ssl"><h4>Install SSL certs</h4></a>
             <p>Zulip uses HTTPS so you need to generate SSL keys and install them here:<br/>
             /etc/ssl/private/zulip-enterprise.key<br/>
             /etc/ssl/certs/zulip-enterprise.combined-chain.crt<br/>
             </p>
           </section>
           <section>
-            <h4>Run the setup script</h4>
+            <a name="setup"><h4>Run the setup script</h4></a>
             <div class="terminal">
               cd /root/zulip<br/>
               ./scripts/setup/install
@@ -83,12 +91,12 @@
             <p>This may take a while to run, since it will install a large number of packages via apt.</p>
           </section>
           <section>
-            <h4>Configure Zulip</h4>
+            <a name="configure"><h4>Configure Zulip</h4></a>
             <p>Configure the Zulip server instance by filling in the settings in
 /etc/zulip/settings.py</p>
           </section>
           <section>
-            <h4>Initialize the database</h4>
+            <a name="initdb"><h4>Initialize the database</h4></a>
             <p>Run the following command:</p>
             <div class="terminal">
             su zulip -c /home/zulip/deployments/current/scripts/setup/initialize-database
@@ -102,7 +110,7 @@
         </section>
 
         <section>
-          <h3>Migrate your existing Zulip data</h3>
+          <a name="migrate"><h3>Migrate your existing Zulip data</h3></a>
           <p>If you've already been running Zulip enterprise (or using a hosted Zulip instance), we've got you covered.</p>
           <p>Download the Zulip migration tool <a href="#">here</a>.</p>
         </section>

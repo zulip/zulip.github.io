@@ -45,6 +45,16 @@
 		width: 1000px;
 	}
 
+	.left {
+		padding-right: 40px;
+	}
+
+	.feature-block {
+		display: inline-block;
+		vertical-align: top;
+		width: 49%;
+	}
+
 	.feature-box {
 		float: right;
 	}
@@ -89,6 +99,12 @@
 		list-style-type: none;
 		margin: 20px 0;
 		font-size: 1em;
+	}
+
+	.docs nav ul ul {
+		list-style-type: none;
+		margin: 2px 0;
+		font-size: 0.9em;
 	}
 
 	.docs nav li {

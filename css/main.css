@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 
 h3 {
@@ -284,4 +284,51 @@ article {
 
 .docs nav {
 	display: none;
+}
+
+.feature-block {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.feature-block i {
+	float: left;
+	vertical-align: middle;
+	margin: 10px 0;
+}
+
+.feature-block h4, .feature-block p {
+	margin: 5px 0;
+	margin-left:  60px;
+}
+
+.feature-block .fa {
+	color: #888;
+}
+
+.logo-text {
+	font-weight: 200;
+}
+
+.feature-presence {
+	width: 15%;
+	border: 4px solid #fff;
+	text-align: center;
+}
+
+.feature-name {
+	padding: 6px 0px;
+	padding-right: 5px;
+}
+
+.feature-yes {
+	background: #d2edcd;
+	color: #005f00;
+	font-size: 0.9em;
+}
+
+.feature-no {
+	background: #d2b0b0;
+	color: #a20202;
+	font-size: 0.9em;
 }

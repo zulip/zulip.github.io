@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
   </head>
@@ -38,9 +39,447 @@
       </div>
     </div>
 
-    <br/>
-    <br/>
-    <br/>
+    <div class="container docs">
+      <article>
+        <section>
+          <h3>How does it compare?</h3>
+        </section>
+      </article>
+    </div>
+
+    <table class="container side-by-side">
+      <tr class="header-row">
+        <th class="features-header">
+        </th>
+        <th class="product-header">
+          <!-- <img src="/static/images/comparisons/zulip-logo.png" class="logo-header" title="Zulip" alt="Zulip" /> -->
+          <span class="logo-text">Zulip</span>
+        </th>
+        <th class="product-header">
+          <!-- <img src="/static/images/comparisons/hipchat-logo.png" class="logo-header" title="Hipchat" alt="Hipchat" />-->
+          <span class="logo-text">Hipchat</span>
+        </th>
+        <th class="product-header">
+          <!-- <img src="/static/images/comparisons/campfire-logo.png" class="logo-header" title="Campfire" alt="Campfire" />-->
+          <span class="logo-text">Campfire</span>
+        </th>
+        <th class="product-header">
+          <!-- <img src="/static/images/comparisons/irc-logo.png" class="logo-header" title="IRC" alt="Campfire" />-->
+          <span class="logo-text">IRC</span>
+        </th>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Desktop and mobile apps
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Receive messages even if offline
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Drag-and-drop image and file sharing
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Image previews
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Integrations with popular services
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         REST API
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         One-on-one private messages
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Group private messages
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr>
+        <td class="feature-name">
+         Email notification of missed PMs
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Threaded conversations
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Mute conversations that aren't relevant
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         In-app search
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Keyword alerts
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Code syntax highlighting
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+      <tr class="feature-row">
+        <td class="feature-name">
+         Emoji
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+        <td class="feature-presence feature-yes">
+          <i class="fa fa-check"></i>
+        </td>
+        <td class="feature-presence feature-no">
+          <i class="fa fa-times"></i>
+        </td>
+      </tr>
+    </table>
+
+    <div class="container">
+      <article class="docs">
+        <section>
+          <h3>TLDR; there are a lot of features</h3>
+        </section>
+      </article>
+    </div>
+
+    <div class="container">
+      <div class="feature-block left">
+        <i class="fa fa-random fa-2x"></i>
+        <h4>Threaded group conversations</h4>
+        <p>Talk about multiple topics at once without getting lost or
+        overwhelmed.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-comments fa-2x"></i>
+        <h4>One-on-one and group private conversations</h4>
+        <p>Have private conversations with one or as many people as you need.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-home fa-2x"></i>
+        <h4>Persistence</h4>
+        <p>We're always receiving messages for you, even when you're
+        logged out.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-road fa-2x"></i>
+        <h4>History</h4>
+        <p>Join a stream and see its history, so even new team
+        members are never out of the loop.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-search fa-2x"></i>
+        <h4>Full-history search</h4>
+        <p>Search is both snappy and smart, helping you look for text,
+        people, and threads of conversation, with advanced search
+        operators for fine-grained control.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-group fa-2x"></i>
+        <h4>Team presence and buddy list</h4>
+        <p>See who is online at a glance.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-picture-o fa-2x"></i>
+        <h4>Inline image, video, and tweet previews</h4>
+        <p>Send a link and we'll automatically generate an inline
+        preview.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-paperclip fa-2x"></i>
+        <h4>Drag-and-drop file uploads</h4>
+        <p>Drag a file into the compose box and we'll upload and
+        preview it for you. Sharing and discussing work with team
+        mates has never been easier.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-user fa-2x"></i>
+        <h4>@-notifications</h4>
+        <p>Want someone's attention in a conversation? @-notify them
+        and they'll be right over.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-bullhorn fa-2x"></i>
+        <h4>Stream-wide announcements</h4>
+        <p>Use <code>@all</code> or <code>@everyone</code> to get the
+        attention of everyone in a stream.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-envelope fa-2x"></i>
+        <h4>Emails for important missed messages</h4>
+        <p>If you're missing important conversations when you're away from
+        Zulip, we'll send you an email summary so you're always in the
+        loop.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-info-circle fa-2x"></i>
+        <h4>Desktop notifications</h4>
+        <p>Configurable for private and stream messages.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-bell fa-2x"></i>
+        <h4>Audible notifications</h4>
+        <p>So you don't miss important messages even when your eyes
+        are elsewhere.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-font fa-2x"></i>
+        <h4>Hotkeys</h4>
+        <p>Communicate as efficiently as you use your favorite text editor.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-thumbs-up fa-2x"></i>
+        <h4>Emoji</h4>
+        <p>Sometimes it's the simple things in life, like being able
+        to give a <tt>:thumbsup:</tt> while chatting.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-edit fa-2x"></i>
+        <h4>Code</h4>
+        <p>Discuss code, even multi-line code, with ease, including
+        syntax-highlighting.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-quote-left fa-2x"></i>
+        <h4>Lightweight markup</h4>
+        <p>Get bulleted lists, clickable links, and nicely-formatted
+        e-mail pastes automatically.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-eraser fa-2x"></i>
+        <h4>Message editing</h4>
+        <p>Don't worry, you can always fix that typo.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-lock fa-2x"></i>
+        <h4>Invite-only streams</h4>
+        <p>Enjoy the benefits of threaded conversations while
+        controlling your audience and privacy.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-star-o fa-2x"></i>
+        <h4>Starred messages</h4>
+        <p>Keep a todo list or keep track of interesting
+        conversations.</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-github fa-2x"></i>
+        <h4>Integrations</h4>
+        <p>Get alerts and updates from your favorite services with
+        off-the-shelf <a href="/integrations">integrations</a> for
+        Trac, Nagios, Github, Jenkins, and more.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-sitemap fa-2x"></i>
+        <h4>API</h4>
+        <p>Want to roll your own notifications? We've got a
+        dead-simple RESTful <a href="/api">API and Python bindings</a>
+        that will make integrations&mdash;both sending and
+        receiving&mdash;a snap!</p>
+      </div>
+      <div class="feature-block left">
+        <i class="fa fa-mobile-phone fa-2x"></i>
+        <h4>Mobile apps</h4>
+        <p>Check Zulip on the go with native <a href="/apps">iOS and
+        Android apps</a>.</p>
+      </div>
+      <div class="feature-block">
+        <i class="fa fa-desktop fa-2x"></i>
+        <h4>Desktop apps</h4>
+        <p>Prefer Zulip in its own window and rich, OS-level notifications?
+          Enjoy <a href="/apps">Zulip on your desktop</a>.</p>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>
