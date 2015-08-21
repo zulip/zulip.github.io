@@ -1,7 +1,9 @@
 /* Media queries */
 @media (min-width: 600px) {
 	header {
-		height: 50px;
+		display: block;
+		height: 56px;
+		padding: 8px 0;
 	}
 
 	header ul {
@@ -38,7 +40,7 @@
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
 	.container {
 		width: 1000px;
 	}
@@ -85,7 +87,7 @@
 
 	.docs nav ul {
 		list-style-type: none;
-		padding: 0;
+		margin: 20px 0;
 		font-size: 1em;
 	}
 

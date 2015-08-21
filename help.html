@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Zulip - Server</title>
+    <title>Zulip - Help!</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,9 +32,9 @@
       </div>
     </header>
 
-    <div class="band band-green">
+    <div class="band band-red">
       <div class="container">
-          <h2>Run your own Zulip server</h2>
+          <h2>Help me!</h2>
       </div>
     </div>
 
@@ -42,69 +42,39 @@
       <nav>
         <ul>
           <li><a href="#">About Zulip server</a></li>
-          <li><a href="#">Requirements</a></li>
           <li><a href="#">Unpack and setup on your box</a></li>
           <li><a href="#">Migrate your existing Zulip data</a></li>
           <li><a href="#">Troubleshooting</a></li>
         </ul>
       </nav>
       <article>
-        <section>
+        <section style="text-align: left; color: #000">
           <h3>About Zulip server</h3>
           <p>Zulip server is a Linux script that runs the Zulip Python app, Postgres database, and queuing server.</p>
           <p>Once up and running, users in your organization can use the web app hosted on your domain, or download a client app from <a href="index.html">zulip.org</a></p>
-          <p>Your best bet right now is running Zulip on Ubuntu 12.04 LTS (Precise Pandolin) on AWS EC2.</p>
+          <p>Your best bet right now is running Zulip on Ubuntu Trusty on AWS EC2.</p>
         </section>
 
-        <section>
-          <h3>A word of warning</h3>
-          <p>Running Zulip in production is a little difficult right now. We're working on cleaning up the production process but please keep this in mind as you work through the following steps!</p>
-        </section>
+        <section style="text-align: left; color: #000">
+          <h3>Unpack and setup on your box</h3>
+          <p>Note: the server must be run on a Linux machine as root.</p>
 
-        <section>
-          <h3>Install the production server</h3>
-          <section>
-            <h4>Download the tarball</h4>
-            <p>Download the <a href="#">binary tarball</a> and extract it to /root/zulip</p>
-          </section>
-          <section>
-            <h4>Install SSL certs</h4>
-            <p>Zulip uses HTTPS so you need to generate SSL keys and install them here:<br/>
-            /etc/ssl/private/zulip-enterprise.key<br/>
-            /etc/ssl/certs/zulip-enterprise.combined-chain.crt<br/>
-            </p>
-          </section>
-          <section>
-            <h4>Run the setup script</h4>
-            <div class="terminal">
-              cd /root/zulip<br/>
+          <div class="terminal">
+              cd /root/<br/>
+              curl -L https://github.com/zulip-server-1.2.1.tar.gz | tar xf<br/>
               ./scripts/setup/install
-            </div>
-            <p>This may take a while to run, since it will install a large number of packages via apt.</p>
-          </section>
-          <section>
-            <h4>Configure Zulip</h4>
-            <p>Configure the Zulip server instance by filling in the settings in
-/etc/zulip/settings.py</p>
-          </section>
-          <section>
-            <h4>Initialize the database</h4>
-            <p>Run the following command:</p>
-            <div class="terminal">
-            su zulip -c /home/zulip/deployments/current/scripts/setup/initialize-database
-            </div>
-  This will report an error if you did not fill in all the mandatory
-  settings from /etc/zulip/settings.py. Once this completes
-  successfully, the main installation process will be complete, and if
-  you are planning on using password authentication, you should be able
-  to visit the URL for your server and register for an account.</p>
-          </section>
+          </div>
         </section>
 
-        <section>
+        <section style="text-align: left; color: #000">
           <h3>Migrate your existing Zulip data</h3>
           <p>If you've already been running Zulip enterprise (or using a hosted Zulip instance), we've got you covered.</p>
           <p>Download the Zulip migration tool <a href="#">here</a>.</p>
+        </section>
+
+        <section style="text-align: left; color: #000">
+          <h3>Troubleshooting</h3>
+          <p>Lorem ipsum</p>
         </section>
       </article>
     </div>
