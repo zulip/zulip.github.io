@@ -232,9 +232,14 @@ footer li {
 	background-color: #fff;
 }
 
+.feature-img {
+	text-align: center;
+}
+
 .feature-box {
 	width: 450px;
 	max-width: 100%;
+	margin: 0 auto;
 }
 
 .features img {
@@ -319,7 +324,7 @@ article {
 }
 
 .feature-presence {
-	width: 15%;
+	width: 12%;
 	border: 4px solid #fff;
 	text-align: center;
 }
