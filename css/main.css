@@ -82,6 +82,14 @@ h6 {
 	background: #ffc;
 }
 
+.band-orange {
+	background: #fdc;
+}
+
+.band-gray {
+	background: #eee;
+}
+
 .band-blue {
 	background: #ddedf6;
 }
@@ -323,12 +331,12 @@ article {
 
 .feature-yes {
 	background: #d2edcd;
-	color: #005f00;
+	color: #383;
 	font-size: 0.9em;
 }
 
 .feature-no {
 	background: #d2b0b0;
-	color: #a20202;
+	color: #833;
 	font-size: 0.9em;
 }
