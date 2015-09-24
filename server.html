@@ -62,15 +62,11 @@
       </nav>
       <article>
         <section>
-          <a name="about"><h3>About Zulip server</h3></a>
-          <p>Zulip server is a Linux script that runs the Zulip Python app, Postgres database, and queuing server.</p>
-          <p>Once up and running, users in your organization can use the web app hosted on your domain, or download a client app from <a href="index.html">zulip.org</a></p>
-          <p>Your best bet right now is running Zulip on Ubuntu 12.04 LTS (Precise Pandolin) on AWS EC2.</p>
-        </section>
-
-        <section>
-          <a name="warning"><h3>A word of warning</h3></a>
-          <p>Running Zulip in production is a little difficult right now. We're working on cleaning up the production process but please keep this in mind as you work through the following steps!</p>
+          <a name="about"><h3>Zulip server installation</h3></a>
+	  <p>To use Zulip for your team, you will need to install an instance of the Zulip server.</p>
+	  <p>Currently, the automated Zulip server installation process only supports Ubuntu 14.04 Trusty.</p>
+	  <p>
+	  <p>You can install a Zulip server on a system with 2G of RAM, but for production use we recommend a system with 4GB of RAM or more.</p>
         </section>
 
         <section>
@@ -113,11 +109,16 @@
           </section>
           <section>
             <a name="integrations"><h4>Integrations</h4></a>
-            <p>You can configure additional integrations in /etc/zulip/settings.py</p>
+            <p>Once you have the Zulip server running, you can reconfigure various options, auth methods, and integrations in
+	      /etc/zulip/settings.py; after making a change you will need to restart the server using:
+	    <div class="terminal">
+            su zulip -c /home/zulip/deployments/current/scripts/restart-server
+            </div>
+	    </p>
           </section>
           <section>
             <a name="maintaining"><h4>Maintaining your installation</h4></a>
-            <p>Read through the README in /root/zulip for instructions on upgrading and maintaining your Zulip instance.</p>
+            <p>Read through <a href="https://github.com/zulip/zulip/files/blobs/README.prod.md">README.prod.md</a> for instructions on upgrading and maintaining your Zulip instance.</p>
           </section>
         </section>
 
