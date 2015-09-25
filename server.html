@@ -52,40 +52,31 @@
     </div>
 
     <div class="container docs">
-      <nav>
-        <ul>
-          <li><a href="#about">About Zulip server</a></li>
-          <li>
-            <a href="#install">Install the production server</a>
-            <ul>
-              <li><a href="#download">Download the tarball</a></li>
-              <li><a href="#ssl">Install SSL certs</a></li>
-              <li><a href="#setup">Run the setup script</a></li>
-              <li><a href="#configure">Configure Zulip</a></li>
-              <li><a href="#initdb">Initialize the database</a></li>
-              <li><a href="#integrations">Integrations</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
       <article>
         <section>
-          <a name="about"><h3>Zulip server installation</h3></a>
-	  <p>To use Zulip for your team, you will need to install an instance of the Zulip server.</p>
-	  <p>Currently, the automated Zulip server installation process only supports Ubuntu 14.04 Trusty.</p>
+	  <p>To set up Zulip for your team, you will need to install an instance of the Zulip server.</p>
+        </section>
+        <section>
+          <a name="requirements"><h3>Requirements</h3></a>
+ 	  <p>Currently, the automated Zulip server installation process only supports Ubuntu 14.04 Trusty. If you need to install Zulip on a different system, contact the <a href="https://groups.google.com/forum/#!forum/zulip-devel" target="_blank">Zulip development discussion mailing list</a> for help.</p>
 	  <p>
 	  <p>You can install a Zulip server on a system with 2G of RAM, but for production use we recommend a system with 4GB of RAM or more.</p>
         </section>
-
         <section>
-          <a name="install"><h3>Install the production server</h3></a>
+          <a name="install"><h3>Installation</h3></a>
+	  <section>
+	    <p>The installation process should be executed as the root user. Run:
+<div class="terminal">
+  sudo -i
+            </div> 
+	  </section>
           <section>
             <a name="download"><h4>Download the tarball</h4></a>
             <p>Download the <a href="#">binary tarball</a> and extract it to /root/zulip</p>
           </section>
           <section>
             <a name="ssl"><h4>Install SSL certs</h4></a>
-            <p>Zulip uses HTTPS so you need to generate SSL keys and install them here:<br/>
+            <p>Zulip requires HTTPS, so you need install SSL certificate here:<br/>
             /etc/ssl/private/zulip.key<br/>
             /etc/ssl/certs/zulip.combined-chain.crt<br/>
             </p>
@@ -96,12 +87,11 @@
               cd /root/zulip<br/>
               ./scripts/setup/install
             </div>
-            <p>This may take a while to run, since it will install a large number of packages via apt.</p>
+            <p>This may take a while to run, since it will install all the dependencies via apt.</p> 
           </section>
           <section>
             <a name="configure"><h4>Configure Zulip</h4></a>
-            <p>Configure the Zulip server instance by filling in the settings in
-/etc/zulip/settings.py</p>
+            <p>Configure the Zulip server instance by opening /etc/zulip/settings.py with your favorite editor and filling in the settings.</p>
           </section>
           <section>
             <a name="initdb"><h4>Initialize the database</h4></a>
@@ -109,16 +99,18 @@
             <div class="terminal">
             su zulip -c /home/zulip/deployments/current/scripts/setup/initialize-database
             </div>
-  This will report an error if you did not fill in all the mandatory
-  settings from /etc/zulip/settings.py. Once this completes
-  successfully, the main installation process will be complete, and if
-  you are planning on using password authentication, you should be able
-  to visit the URL for your server and register for an account.</p>
+  This will create the realm you defined in /etc/zulip/settings.py and the various Zulip notification bots. 
+  It will report an error if you did not fill in all the mandatory
+  settings from /etc/zulip/settings.py. Once this finishes
+  successfully, the main installation process will be complete.</p>
+
+<p> If you are planning on using password authentication, you should be able
+  to visit the URL for your server and register for an account at this time.</p>
           </section>
           <section>
             <a name="integrations"><h4>Integrations</h4></a>
             <p>Once you have the Zulip server running, you can reconfigure various options, auth methods, and integrations in
-	      /etc/zulip/settings.py; after making a change you will need to restart the server using:
+	      /etc/zulip/settings.py.  In order for these changes to take effect, you will need to restart the server using:
 	    <div class="terminal">
             su zulip -c /home/zulip/deployments/current/scripts/restart-server
             </div>
