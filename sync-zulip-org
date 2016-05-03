@@ -1,5 +1,5 @@
 #!/bin/sh -xe
-if ! grep -q git@git.zulip.net:eng/zulip-org.git .git/config; then
+if ! grep -q git@github.com:zulip/zulip.github.io.git .git/config; then
     echo "ERROR: Needs to be run from zulip-org.git working directory"
 fi
 aws s3 sync ./ s3://zulip.org/ --exclude='.git/*' --exclude=sync-zulip-org
