@@ -168,16 +168,19 @@
             <div class="terminal">
             su zulip -c /home/zulip/deployments/current/scripts/setup/initialize-database
             </div>
-  This will create the realm you defined in /etc/zulip/settings.py and the various Zulip notification bots. 
-  It will report an error if you did not fill in all the mandatory
-  settings from /etc/zulip/settings.py. Once this finishes
-  successfully, the main installation process will be complete.</p>
-<p>
-<p>You will then want to consult
-the <a href="https://github.com/zulip/zulip/blob/master/README.prod.md">Zulip
-in production README</a> for how to create your initial administrator
-    account and login, setup integrations, etc., as well as
-  troubleshoot common issues. </a></p>
+            <p>This will setup the various Zulip notification bots as defined in /etc/zulip/settings.py. 
+            It will also report an error if you did not fill in all the mandatory
+            settings from /etc/zulip/settings.py. Once this finishes
+            successfully, the main installation process will be complete.</p>
+            <p>Now run the following command to generate a link that can be
+            used for creating your organization and setting up the admin account.</p>
+            <div class="terminal">
+            ./manage.py generate_realm_creation_link
+            </div>
+            <p>You will then want to consult
+            the <a href="https://github.com/zulip/zulip/blob/master/README.prod.md">Zulip
+            in production README</a> for login, setup integrations, etc., as well as
+            troubleshoot common issues. </a></p>
           </section>
           <section>
             <a name="integrations"><h4>Announcement mailing list</h4></a>
