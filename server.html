@@ -92,29 +92,14 @@
           and email credentials needed to send outgoing email.</p>
         </section>
         <section>
-          <a name="troubleshooting"><h3>Troubleshooting instructions</h3></a>
-          <p>The instructions here are an abbreviated version of the
-          instructions in
-          the <a href="https://github.com/zulip/zulip/blob/master/README.prod.md">Zulip
-          in production README</a>; you will want to consult those
-          instructions once you finish the steps here or if you run
-          into any trouble.
-          <p>
-        </section>
-        <section>
           <a name="install"><h3>Installation</h3></a>
 	  <section>
-	    <p>The installation process should be executed as the root user. Run:
-<div class="terminal">
-  sudo -i
-            </div> 
-	  </section>
-          <section>
             <a name="download"><h4>Download the tarball</h4></a>
-            <p>Download
+            <p>Instructions for downloading
             the <a href="https://www.zulip.com/dist/releases/zulip-server-1.3.13.tar.gz">binary
-            tarball</a>, Verify its sha1sum matches, extract it, and
-            move the resulting directory to /root/zulip:</p>
+            tarball</a>, verifying its sha1sum matches, extracting it, and
+            moving the resulting directory to <code>/root/zulip</code> (where it's expected
+	    to live):</p>
             <div class="terminal">
               cd /root<br />
               wget https://www.zulip.com/dist/releases/zulip-server-1.3.13.tar.gz<br />
@@ -122,65 +107,13 @@
               tar -xf zulip-server-1.3.13.tar.gz<br />
               mv zulip-server-1.3.13 zulip<br />
             </div>
+            <h4>Follow installation guide</h4>
+            <p>Consult the <a href="https://github.com/zulip/zulip/blob/master/README.prod.md">Zulip
+	    in production README</a> for installation instructions and tips to
+	    troubleshoot common issues.</p>
           </section>
           <section>
-            <a name="ssl"><h4>Install SSL certs</h4></a>
-            <p>Zulip requires HTTPS, so you need to install an SSL certificate here:<br/>
-            /etc/ssl/private/zulip.key<br/>
-            /etc/ssl/certs/zulip.combined-chain.crt<br/>
-            </p>
-            <p>If you don't know how to generate an SSL certificate,
-            you, you can do the following to generate a self-signed certificate:</p>
-              <div class="terminal">
-                apt-get install openssl<br />
-                openssl genrsa -des3 -passout pass:x -out server.pass.key 4096<br />
-                openssl rsa -passin pass:x -in server.pass.key -out zulip.key<br />
-                rm server.pass.key<br />
-                openssl req -new -key zulip.key -out server.csr<br />
-                openssl x509 -req -days 365 -in server.csr -signkey zulip.key -out zulip.combined-chain.crt<br />
-                rm server.csr<br />
-                cp zulip.key /etc/ssl/private/zulip.key<br />
-                cp zulip.combined-chain.crt /etc/ssl/certs/zulip.combined-chain.crt<br />
-              </div>
-            <p>You will eventually want to get a properly signed
-            certificate (and note that at present the Zulip desktop app doesn't
-            support self-signed certificates), but this will let you
-            finish the installation process.</p>
-          </section>
-          <section>
-            <a name="setup"><h4>Run the setup script</h4></a>
-            <div class="terminal">
-              cd /root/zulip<br/>
-              ./scripts/setup/install
-            </div>
-            <p>This may take a while to run, since it will install all the dependencies via apt.</p> 
-          </section>
-          <section>
-            <a name="configure"><h4>Configure Zulip</h4></a>
-            <p>Configure the Zulip server instance by opening
-            /etc/zulip/settings.py with your favorite editor and
-            filling in the settings; you'll want to configure all the
-            "Mandatory settings" plus at least one authentication method.</p>
-          </section>
-          <section>
-            <a name="initdb"><h4>Initialize the database</h4></a>
-            <p>Run the following command:</p>
-            <div class="terminal">
-            su zulip -c /home/zulip/deployments/current/scripts/setup/initialize-database
-            </div>
-  This will create the realm you defined in /etc/zulip/settings.py and the various Zulip notification bots. 
-  It will report an error if you did not fill in all the mandatory
-  settings from /etc/zulip/settings.py. Once this finishes
-  successfully, the main installation process will be complete.</p>
-<p>
-<p>You will then want to consult
-the <a href="https://github.com/zulip/zulip/blob/master/README.prod.md">Zulip
-in production README</a> for how to create your initial administrator
-    account and login, setup integrations, etc., as well as
-  troubleshoot common issues. </a></p>
-          </section>
-          <section>
-            <a name="integrations"><h4>Announcement mailing list</h4></a>
+            <a name="mailing-list"><h3>Announcement mailing list</h3></a>
 	    <p>We highly recommend signing up for
 	    the <a href="https://groups.google.com/forum/#!forum/zulip-announce">Zulip
 	    announcement mailing list</a> so you will hear about new
