@@ -101,7 +101,19 @@ apps, or other code that integrates with Zulip.
   app](https://github.com/zulip/zulip-android), which [we've been
   steadily
   improving](https://groups.google.com/forum/#!topic/zulip-announce/xZ9i9PeDhJ8)
-  and which is much further along than the iOS app.
+  and which is much further along than the iOS app.  Here's some more concrete ideas:
+
+ - Setting up repeatable Android builds for CI and production releases, that reliably run both Espresso and Unit tests 
+
+ - Adding photo uploads and cropping
+ 
+ - Adding file attachment uploads
+
+ - Implementing a "share to Zulip" functionality to share content from other apps to Zulip
+
+ - Fancier in app notifications
+
+ - Fancy up the homescreen widget
 
 * Improving and redesigning Zulip's UI/UX. These will include:
   - [zulip.org](https://zulip.org/)
