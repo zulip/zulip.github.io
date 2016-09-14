@@ -103,6 +103,10 @@ apps, or other code that integrates with Zulip.
   improving](https://groups.google.com/forum/#!topic/zulip-announce/xZ9i9PeDhJ8)
   and which is much further along than the iOS app.
 
+* Improving and redesigning Zulip's UI/UX. These will include:
+  - [zulip.org](https://zulip.org/)
+  - Zulip's web app
+
 * Merging some of our Django extensions into upstream -- Zulip has
   several cool extensions and/or monkey-patchings we do to improve the
   Django web framework for our users, and several of these would make
