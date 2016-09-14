@@ -143,19 +143,17 @@ apps, or other code that integrates with Zulip.
   go for an approach that involves auto-generated documentation
   (etc.).
 
-* Implementing analytics so we can see: how are messages distributed
-  across users? what happens when you analyze the social graph of who
-  talks to and mentions whom, and how interconnected are people and
-  groups across streams?
+* Implementing analytics so we can see how people use zulip, see which
+  features are valuable, systematically debug performance problems, etc.
 
  - Frontend analytics visualizations: we store a lot of interesting
-   data about user activity, stream activity, etc. The task would be
-   to make fun/useful visualizations of the data for users and realm
+   data about user activity, stream activity, etc. The projects will be
+   around make fun/useful visualizations of the data for users and realm
    admins.
 
- - Backend analytics: There is a lot of data in our production tables
-   and server logs that would be nice to aggregate (e.g. common errors
-   that give out response code 500).
+ - Backend analytics: There is a lot of data in our production tables and
+   server logs that would be nice to aggregate (e.g. info about stream/user
+   activity, or common server errors).
 
 * Improving our experimental [Electron-based desktop client
   application](https://github.com/zulip/zulip-electron) with better
