@@ -93,9 +93,12 @@ apps, or other code that integrates with Zulip.
 * [Making it easy to import data from Slack into
   Zulip](https://github.com/zulip/zulip/issues/908).
 
-* Working on engineering for our [React Native mobile
-  app](https://github.com/zulip/zulip-mobile) for iOS. This is a
-  pressing need for us, since our current iOS app is very out of date.
+* Working on engineering for our
+  [React Native mobile app](https://github.com/zulip/zulip-mobile) for
+  iOS. This is a pressing need for us, since our current iOS app is
+  very out of date.  A lot of the UX ideas for Android below also
+  apply to the React Native iOS app, in addition to just getting the
+  app to feature parity.
 
 * Improving the user experience and design of our [Java Android
   app](https://github.com/zulip/zulip-android), which [we've been
