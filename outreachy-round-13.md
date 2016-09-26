@@ -42,7 +42,9 @@ concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usag
 
 We'd love for you to drop by [our open Zulip livechat at
 zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome)
-(we use Zulip instead of IRC) or our [Outreachy round 13 mailing
+(we use Zulip instead of IRC), and introduce yourself in the `Welcome`
+thread of the `Outreachy 2016-2017` stream. Please also join our
+[Outreachy round 13 mailing
 list](https://groups.google.com/forum/#!forum/zulip-outreachy-round-13). Please
 talk with us about [our
 roadmap](https://zulip.readthedocs.io/en/latest/roadmap.html) or your
