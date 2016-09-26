@@ -41,10 +41,10 @@ a look at [our architectural overview and key
 concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
 
 We'd love for you to drop by [our open Zulip livechat at
-zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome)
-(we use Zulip instead of IRC), and introduce yourself in the `Welcome`
-thread of the `Outreachy 2016-2017` stream. Please also join our
-[Outreachy round 13 mailing
+zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017)
+(we use Zulip instead of IRC), and introduce yourself -- compose a new
+stream message to the 'Outreachy 2016-2017' stream with your name as
+the topic. Please also join our [Outreachy round 13 mailing
 list](https://groups.google.com/forum/#!forum/zulip-outreachy-round-13). Please
 talk with us about [our
 roadmap](https://zulip.readthedocs.io/en/latest/roadmap.html) or your
@@ -182,10 +182,10 @@ apps, or other code that integrates with Zulip.
 Check out our [bite-sized
 bugs](https://github.com/zulip/zulip/labels/bite%20size). If none of
 those work for you, drop in on our [open
-livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome)
-in the `Welcome` topic within the `Outreachy 2016-2017` stream, and
-talk with us about what your skills are -- we'll find something for
-you.
+livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017)
+and compose a new stream message to the 'Outreachy 2016-2017' stream
+with your name as the topic, and talk with us about what your skills
+are -- we'll find something for you.
 
 As you work towards an initial contribution, it might help you to
 check out [these tips for new open source
@@ -199,6 +199,6 @@ Our mentors will include Tim Abbott and Rishi Gupta, both of whom work
 on maintaining Zulip, and both of whom read the [mailing
 list](https://groups.google.com/forum/#!forum/zulip-outreachy-round-13)
 and whom you can ping in [our Zulip
-livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome).
+livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017).
 
 Hope to hear from you!
