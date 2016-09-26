@@ -36,10 +36,12 @@ reasoning behind how Zulip is engineered and how to make it better.
 
 We have an easy-to-setup development environment, and a library of
 tasks that are great for first-time contributors
-([guide](https://github.com/zulip/zulip#contributing-to-zulip)).
+([guide](https://github.com/zulip/zulip#contributing-to-zulip)). Take
+a look at [our architectural overview and key
+concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
 
 We'd love for you to drop by [our open Zulip livechat at
-[zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/general/topic/welcome)
+zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome)
 (we use Zulip instead of IRC) or our [Outreachy round 13 mailing
 list](https://groups.google.com/forum/#!forum/zulip-outreachy-round-13). Please
 talk with us about [our
@@ -50,7 +52,9 @@ questions, and consider applying for an Outreachy internship with us!
 
 Our Outreachy application process opens September 12 and closes
 October 17. [You'll follow the instructions
-here.](https://wiki.gnome.org/Outreachy#Application_Process)
+here.](https://wiki.gnome.org/Outreachy#Application_Process) Applying
+earlier is better so we have time to give you suggestions for
+revision.
 
 Your application should include the following:
 
@@ -77,6 +81,15 @@ be skilled in writing in English for a non-academic audience, and to
 be interested in getting feedback that will help them write accurately
 and accessibly about technology.
 
+We'll be asking for you to publicly post a few sections of your
+proposal -- the project summary, list of deliverables, and timeline --
+someplace public on the Web, such as on your blog, or in a public
+document on a platform like
+[EtherPad](https://public.etherpad-mozilla.org/) or
+[Hackpad](https://hackpad.com) or [Dropbox
+Paper](https://www.dropbox.com)). That way, the whole developer
+community -- not just the mentors and administrators -- have a chance
+to give you feedback and help you improve your proposal.
 
 # Project ideas
 
@@ -165,9 +178,16 @@ apps, or other code that integrates with Zulip.
 Check out our [bite-sized
 bugs](https://github.com/zulip/zulip/labels/bite%20size). If none of
 those work for you, drop in on our [open
-livechat](https://zulip.tabbott.net/#narrow/stream/general/topic/welcome)
-in the `welcome` topic within the `general` stream, and talk with us
-about what your skills are -- we'll find something for you.
+livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome)
+in the `Welcome` topic within the `Outreachy 2016-2017` stream, and
+talk with us about what your skills are -- we'll find something for
+you.
+
+As you work towards an initial contribution, it might help you to
+check out [these tips for new open source
+contributors](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Tips.20for.20new.20open.20source.20contributors),
+on how to learn faster and communicate respectfully in open source
+communities.
 
 # Mentors
 
@@ -175,6 +195,6 @@ Our mentors will include Tim Abbott and Rishi Gupta, both of whom work
 on maintaining Zulip, and both of whom read the [mailing
 list](https://groups.google.com/forum/#!forum/zulip-outreachy-round-13)
 and whom you can ping in [our Zulip
-livechat](https://zulip.tabbott.net/).
+livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Welcome).
 
 Hope to hear from you!
