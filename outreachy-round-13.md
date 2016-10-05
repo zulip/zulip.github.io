@@ -111,9 +111,9 @@ We are more interested in candidates if we see them submitting good
 contributions to Zulip projects, helping other applicants on GitHub
 and on our mailing lists and on
 [zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/subject/Welcome),
-learning from our suggestions, (trying to solve their own obstacles
+learning from our suggestions, [trying to solve their own obstacles
 and then asking well-formed
-questions)[https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html],
+questions](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
 and developing and sharing project ideas and project proposals that
 are plausible and useful.
 
