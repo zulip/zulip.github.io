@@ -47,7 +47,7 @@ a look at [our architectural overview and key
 concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
 
 We'd love for you to drop by [our open Zulip livechat at
-zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017)
+chat.zulip.org](https://chat.zulip.org/#narrow/stream/Outreachy.202016-2017)
 (we use Zulip instead of IRC), and introduce yourself -- compose a new
 stream message to the 'Outreachy 2016-2017' stream with your name as
 the topic. Please also join our [Outreachy round 13 mailing
@@ -110,7 +110,7 @@ application deadline."
 We are more interested in candidates if we see them submitting good
 contributions to Zulip projects, helping other applicants on GitHub
 and on our mailing lists and on
-[zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/subject/Welcome),
+[chat.zulip.org](https://chat.zulip.org/#narrow/stream/Outreachy.202016-2017/subject/Welcome),
 learning from our suggestions, [trying to solve their own obstacles
 and then asking well-formed
 questions](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
@@ -145,7 +145,7 @@ messages or email. We prefer to hear from you and respond to you in
 public places so more people have a chance to answer the question, and
 to see and benefit from the answer. If that makes you say "aha", also
 see [these tips for new open source
-contributors](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017/topic/Tips.20for.20new.20open.20source.20contributors),
+contributors](https://chat.zulip.org/#narrow/stream/Outreachy.202016-2017/topic/Tips.20for.20new.20open.20source.20contributors),
 on how to learn faster and communicate respectfully in open source
 communities.
 
@@ -237,7 +237,7 @@ apps, or other code that integrates with Zulip.
 Check out our [bite-sized
 bugs](https://github.com/zulip/zulip/labels/bite%20size). If none of
 those work for you, drop in on our [open
-livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017)
+livechat](https://chat.zulip.org/#narrow/stream/Outreachy.202016-2017)
 and compose a new stream message to the 'Outreachy 2016-2017' stream
 with your name as the topic, and talk with us about what your skills
 are -- we'll find something for you.
@@ -249,6 +249,6 @@ Our mentors will include Tim Abbott and Rishi Gupta, both of whom work
 on maintaining Zulip, and both of whom read the [mailing
 list](https://groups.google.com/forum/#!forum/zulip-outreachy-round-13)
 and whom you can ping in [our Zulip
-livechat](https://zulip.tabbott.net/#narrow/stream/Outreachy.202016-2017).
+livechat](https://chat.zulip.org/#narrow/stream/Outreachy.202016-2017).
 
 Hope to hear from you!

@@ -58,7 +58,7 @@ Then: use [our first-time Zulip developer
 guide](https://zulip.readthedocs.io/en/latest/dev-env-first-time-contributors.html)
 to get your Zulip development environment set up. If you have any
 trouble, please speak up in [our
-livechat](https://zulip.tabbott.net/#narrow/stream/GSoC.202017)
+livechat](https://chat.zulip.org/#narrow/stream/GSoC.202017)
 (compose a new stream message to the 'GSoC 2017' stream with your name
 as the topic), or post to [our GSoC mailing
 list](https://groups.google.com/forum/#!forum/zulip-gsoc), and we'll
@@ -115,7 +115,7 @@ application deadline.
 We are more interested in candidates if we see them submitting good
 contributions to Zulip projects, helping other applicants on GitHub
 and on our mailing lists and on
-[zulip.tabbott.net](https://zulip.tabbott.net/#narrow/stream/GSoC.202017),
+[chat.zulip.org](https://chat.zulip.org/#narrow/stream/GSoC.202017),
 learning from our suggestions, [trying to solve their own obstacles
 and then asking well-formed
 questions](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
@@ -293,7 +293,7 @@ list of deliverables is fine for the first draft of this sort of thing.
 
 We don't yet know who specifically our mentors will be. But you can
 reach us via [our
-livechat](https://zulip.tabbott.net/#narrow/stream/GSoC.202017)
+livechat](https://chat.zulip.org/#narrow/stream/GSoC.202017)
 (compose a new stream message to the 'GSoC 2017' stream with your name
 as the topic), or through [our GSoC mailing
 list](https://groups.google.com/forum/#!forum/zulip-gsoc), and we'll
