@@ -50,7 +50,7 @@ reasoning behind how Zulip is engineered and how to make it better.
 
 We have an easy-to-setup development environment, and a library of
 tasks that are great for first-time contributors
-([guide](https://github.com/zulip/zulip#contributing-to-zulip)). Take
+([guide](https://github.com/zulip/zulip#ways-to-contribute)). Take
 a look at [our architectural overview and key
 concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
 
@@ -69,7 +69,7 @@ and key
 concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts). Then
 look through our library of tasks that are great for first-time
 contributors
-([guide](https://github.com/zulip/zulip#contributing-to-zulip)), and
+([guide](https://github.com/zulip/zulip#ways-to-contribute)), and
 comment on an issue that appeals to you and say "I'm going to work on
 this." Then start working on it! If you have any setbacks or you get
 stuck, [tell us what you're trying to do and what you've already
