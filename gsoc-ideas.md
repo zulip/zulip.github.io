@@ -1,8 +1,7 @@
 # Google Summer of Code 2017
 
-Zulip [participated in GSoC 2016 and mentored three
-students](https://groups.google.com/d/msg/zulip-devel/so8qiZmiO9Q/VlcEDqntBQAJ). We
-do intend to ask Google Summer of Code to allow us to mentor again in
+Zulip participated in GSoC 2016 and mentored three students. We do
+intend to ask Google Summer of Code to allow us to mentor again in
 2017, but we have no guarantees as to whether we'll be accepted or
 rejected as an organization (although we have no particular reason to
 believe we'll be rejected.) We'll know by 27 February 2017 whether
