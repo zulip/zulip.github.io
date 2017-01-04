@@ -140,13 +140,8 @@ header nav .highlighted a:hover {
 footer {
 	text-align: right;
 	font-size: 0.9em;
-	padding: 10px;
+	padding: 5px;
 	border-top: 1px solid #ccc;
-}
-
-footer ul {
-	margin: 5px;
-	padding: 0;
 }
 
 footer li {
@@ -156,11 +151,7 @@ footer li {
 }
 
 footer #logo {
-	margin-top: -5px;
-}
-
-footer .copyright {
-	padding-right: 15px;
+	margin-top: -15px;
 }
 
 .container {
