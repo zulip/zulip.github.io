@@ -1,6 +1,6 @@
 zulip.github.io
 ===============
-zulip.org website
+[zulip.org](https://zulip.org/) website
 
 License
 =======
