@@ -211,7 +211,7 @@ Python](http://github.com/zulip/zulip/)
   Zulip](https://github.com/zulip/zulip/issues/908).
 
 - Build meta-integration. Zulip has several dozen native integrations
-  (https://zulip.com/integrations/), but Slack has a ton more.  We
+  (https://chat.zulip.org/integrations/), but Slack has a ton more.  We
   should build a system to make all of Slack’s numerous third-party
   integrations work with Zulip as well, and make Zulip’s integration
   system a lot more slick.
