@@ -512,6 +512,18 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
   strong DevOps/infrastructure experience; puppet skills are helpful.
   Expert: Tim Abbott.
 
+- Add good support and documentation for using Zulip in Docker, both
+  for development and in production, so that we can recommend it as a
+  preferred was to use Zulip.  You should review all the materials
+  linked in the last section.  Or relatedly, create tooling to
+  maintain "one-click" installer for Zulip (e.g. AWS or Digital Ocean
+  image) to make it super easy to get started with Zulip.  **Skills
+  required**: Docker and/or experience running and administering Linux
+  servers.  Knowing Puppet is very helpful; some Python and shell is
+  useful too.  The references in the last section are all useful; also
+  check out the existing Docker development environment and pull
+  request for Docker in production.  Experts: Tim Abbott.
+
 - Build a federation system for users on different Zulip servers to
   exchange messages.  See
   [the issue on matrix.org integration](https://github.com/zulip/zulip/issues/356)
