@@ -618,6 +618,10 @@ Code:
 - Combining together a bunch of polish issues in the Zulip Android app
   project; there's a lot that could be a little bit nicer (typeaheads,
   etc.).
+- Optimize the loading messages performance. Zulip already performs 
+  fairly well once the messages has been loaded,but it takes a
+  bit of time to load the messages. Improve the performance so that 
+  for loading messages, it doesn't take much time.
 
 A good project will likely combine several of these feature ideas.
 
