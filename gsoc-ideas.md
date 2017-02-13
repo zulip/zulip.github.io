@@ -1,6 +1,7 @@
 # Google Summer of Code 2017
 
-Zulip participated in GSoC 2016 and mentored three students. We do
+Zulip participated in GSoC 2016 and mentored three students officially
+(and 4 more who did their proposed projects unofficially). We do
 intend to ask Google Summer of Code to allow us to mentor again in
 2017, but we have no guarantees as to whether we'll be accepted or
 rejected as an organization (although we have no particular reason to
@@ -29,7 +30,7 @@ Zulip supports both private messaging and group chats via conversation
 streams. Zulip also supports fast search, drag-and-drop file uploads,
 image previews, group private messages, audible notifications,
 missed-message emails, desktop apps, and [much
-more](https://www.zulip.org).
+more](https://www.zulip.org/features.html).
 
 Zulip has gained a considerable amount of traction [since we released
 it as open source software in September
@@ -45,6 +46,9 @@ group chat product, your GSoC experience with the Zulip project will be
 highly interactive, with a real focus on teaching you the concepts and
 reasoning behind how Zulip is engineered and how to make it better.
 
+As part of that commitment, Zulip has over 80,000 words of
+[documentation for developers](zulip.readthedocs.io/en/latest/).
+
 ## Getting started
 
 We have an easy-to-setup development environment, and a library of
@@ -53,15 +57,15 @@ tasks that are great for first-time contributors
 a look at [our architectural overview and key
 concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
 
-Then: use [our first-time Zulip developer
-guide](https://zulip.readthedocs.io/en/latest/dev-env-first-time-contributors.html)
+Then: use
+[our first-time Zulip developer guide](https://zulip.readthedocs.io/en/latest/dev-env-first-time-contributors.html)
 to get your Zulip development environment set up. If you have any
-trouble, please speak up in [our
-livechat](https://chat.zulip.org/#narrow/stream/GSoC.202017)
-(compose a new stream message to the 'GSoC 2017' stream with your name
-as the topic), or post to [our GSoC mailing
-list](https://groups.google.com/forum/#!forum/zulip-gsoc), and we'll
-help you out.
+trouble, please speak up in
+[#GSoC](https://chat.zulip.org/#narrow/stream/GSoC) on
+[the Zulip development community server](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
+(use your name as the topic), or post to
+[our GSoC mailing list](https://groups.google.com/forum/#!forum/zulip-gsoc),
+and we'll help you out.
 
 Once you've gotten set up, take a look at [our architectural overview
 and key
@@ -74,6 +78,11 @@ this." Then start working on it! If you have any setbacks or you get
 stuck, [tell us what you're trying to do and what you've already
 tried](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
 and we'll help you out.
+
+Contributors who are new to open source will likely benefit from
+reading
+[our Git guide](http://zulip.readthedocs.io/en/latest/git-guide.html),
+which has a lot of advice about how to do things like rebase your code.
 
 # Application tips, and how to be a strong candidate
 
@@ -113,11 +122,10 @@ application deadline.
 
 We are more interested in candidates if we see them submitting good
 contributions to Zulip projects, helping other applicants on GitHub
-and on our mailing lists and on
-[chat.zulip.org](https://chat.zulip.org/#narrow/stream/GSoC.202017),
-learning from our suggestions, [trying to solve their own obstacles
-and then asking well-formed
-questions](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
+and on our mailing lists and in
+[chat.zulip.org](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
+learning from our suggestions,
+[trying to solve their own obstacles and then asking well-formed questions](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
 and developing and sharing project ideas and project proposals that
 are plausible and useful.
 
@@ -291,12 +299,12 @@ list of deliverables is fine for the first draft of this sort of thing.
 ## Mentors
 
 We don't yet know who specifically our mentors will be. But you can
-reach us via [our
-livechat](https://chat.zulip.org/#narrow/stream/GSoC.202017)
-(compose a new stream message to the 'GSoC 2017' stream with your name
-as the topic), or through [our GSoC mailing
-list](https://groups.google.com/forum/#!forum/zulip-gsoc), and we'll
-help you out.
+reach us via [#GSoC](https://chat.zulip.org/#narrow/stream/GSoC) on
+[the Zulip development community server](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
+(compose a new stream message to with your name as the topic), or
+through
+[our GSoC mailing list](https://groups.google.com/forum/#!forum/zulip-gsoc),
+and we'll help you out.
 
 Hope to hear from you! And thanks for being interested in Zulip. We're
 always happy to help volunteers get started contributing to our open
