@@ -618,10 +618,18 @@ Code:
 - Combining together a bunch of polish issues in the Zulip Android app
   project; there's a lot that could be a little bit nicer (typeaheads,
   etc.).
-- Optimize the loading messages performance. Zulip already performs 
-  fairly well once the messages has been loaded,but it takes a
-  bit of time to load the messages. Improve the performance so that 
-  for loading messages, it doesn't take much time.
+- Optimize the loading messages performance. The Zulip android app
+  already performs fairly well once the messages has been loaded, but
+  it takes a bit of time to load the messages on app startup. Improve
+  the performance so that for loading messages, it doesn't take much
+  time; this would require both profiling (for Java perf issues) and
+  adjusting the strategy for how messages are loaded from the server.
+- Display messages even when the app is in offline mode. The Zulip
+  android app do not display the old stored messages when the
+  application is started in offline mode. Caching old messages would
+  be to use a long-lived event queue with the server, which could
+  allow to cache thousands of messages of history (and maintain it
+  over time through other users editing messages).
 
 A good project will likely combine several of these feature ideas.
 
