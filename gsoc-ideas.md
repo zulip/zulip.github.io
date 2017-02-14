@@ -73,7 +73,7 @@ concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usag
 look through our library of tasks that are great for first-time
 contributors
 ([guide](https://github.com/zulip/zulip#ways-to-contribute)), and
-comment on an issue that appeals to you and say "I'm going to work on
+comment on an issue that appeals to you with a comment like "I'm going to work on
 this." Then start working on it! If you have any setbacks or you get
 stuck, [tell us what you're trying to do and what you've already
 tried](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
@@ -81,7 +81,7 @@ and we'll help you out.
 
 Contributors who are new to open source will likely benefit from
 reading
-[our Git guide](http://zulip.readthedocs.io/en/latest/git-guide.html),
+[the Zulip guide to Git](http://zulip.readthedocs.io/en/latest/git-guide.html),
 which has a lot of advice about how to do things like rebase your code.
 
 # Application tips, and how to be a strong candidate
@@ -166,7 +166,7 @@ mentoring which projects based in part on who is a good fit for the
 needs of each student as well as technical expertise.  You can reach
 us via [#GSoC](https://chat.zulip.org/#narrow/stream/GSoC) on
 [the Zulip development community server](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
-(compose a new stream message to with your name as the topic), or
+(compose a new stream message with your name as the topic), or
 through
 [our GSoC mailing list](https://groups.google.com/forum/#!forum/zulip-gsoc),
 and we'll help you out.
@@ -181,7 +181,7 @@ proposal.
 
 However, the first and most important thing to do for building a
 strong application is to show your skills by contributing to a large
-open source project like Zulip to show that you can work effectively
+open source project like Zulip, to show that you can work effectively
 in a large codebase (it doesn't matter what part of Zulip, and we're
 happy to consider work in other open source projects).  The quality of
 your best work is more important to us than the quantity; so be sure
@@ -199,7 +199,7 @@ whoever is online.
 ## Project ideas
 
 These are the seeds of ideas; you will need to do research on the
-Zulip codebase, read issuse on GitHub, and talk with developers to put
+Zulip codebase, read issues on GitHub, and talk with developers to put
 together a complete project proposal.  It's also fine for you to come
 up with your own project ideas.  As you'll see below, you can put
 together a great project around one of the
@@ -207,7 +207,7 @@ together a great project around one of the
 has a cluster of problems in one part of the Zulip project that we'd
 love to improve.
 
-We don't believe in labeling projects by difficulty (E.g. a project
+We don't believe in labeling projects by difficulty (e.g. a project
 that involves writing a lot of documentation will be hard for some
 great programmers, and a UI design project might be hard for a great
 backend programmer, while a great writer might have trouble doing
@@ -215,7 +215,7 @@ performance work).  To help you find a great project, we list the
 skills needed, and try to emphasize where strong skills with
 particular tools are likely to be important for a given project.
 
-For all of our projects, important skills to develop is a good command
+For all of our projects, an important skill to develop is a good command
 of Git; read
 [our Git Guide](zulip.readthedocs.io/en/latest/git-guide.html) to
 learn how to use it well.
@@ -225,7 +225,7 @@ learn how to use it well.
 Code: [github.com/zulip/zulip -- Python, Django, JavaScript, and
 CSS](http://github.com/zulip/zulip/).
 
-- Make Zulip integrations a lot easier for nontechnical users to
+- Make Zulip integrations easier for nontechnical users to
   setup.  This includes adding a backend permissions system for
   managing bot permissions (and actually implementing the enforcement
   logic), adding an Oauth system for presenting those controls to
@@ -256,12 +256,12 @@ CSS](http://github.com/zulip/zulip/).
   with the Slack API a plus.  Work should include documenting the
   system and advertising it.  Expert: Tomasz Kolek.
 
-- Visual design work on Zulip's logged-out pages, including /help/,
+- Visual design work on Zulip's logged-out pages, including /help,
   /apps, /integrations, /api, /login, /register, the zulip.org
   website, etc.  We'd love to make these look nicer both through
-  polish and potentially adding fun illustrations to make the product
+  polish and potentially through adding fun illustrations to make the product
   more friendly.  A project could include work on Zulip's logged-in UI
-  as well :).  **Skills required**: Design, HTML and CSS skills;
+  as well.  **Skills required**: Design, HTML and CSS skills;
   JavaScript and illustration experience are helpful.  A great
   application would come with mockups for specific changes, and/or a
   set of PRs making small improvements to the logged-out UI.  Expert:
@@ -273,31 +273,31 @@ CSS](http://github.com/zulip/zulip/).
   various product features, and what features exist, but it could use
   a lot of work on organization, polish, and otherwise making it feel
   nice.  The largest part of this, though, would be writing guides for
-  new users on how to setup Zulip effectively.  One can start with the
-  [open user documentation issues](https://github.com/zulip/zulip/labels/area%3A%20documentation%20%28user%29)
-  **Skills required**: Excellent English writing skills, empathy for
+  new users on how to setup Zulip effectively.  One could start with the
+  [open user documentation issues](https://github.com/zulip/zulip/labels/area%3A%20documentation%20%28user%29).
+  **Skills required**: Strong English writing skills, empathy for
   users, appreciation for the Zulip user experience.  Minimal coding
   experience required.  Expert: Cynthia Lin.
 
 - Build support for outgoing webhooks and slash commands into Zulip to
-  improve its chatops capabilities.  There's an existing
+  improve its chat-ops capabilities.  There's an existing
   [pull request](https://github.com/zulip/zulip/pull/1393) with a lot
   of work on the outgoing webhooks piece of this feature that would
-  need to be cleaned up and finished, and then we should build Slash
-  command support, some example integrations, and a full set of
-  documentation, tests, etc.  Recommended reading includes Slack's
+  need to be cleaned up and finished, and then we need to build support for slash
+  commands, some example integrations, and a full set of
+  documentation and tests.  Recommended reading includes Slack's
   documentation for these features, the Zulip message sending code
   path, and the linked pull request. **Skills required**: Strong
   Python/Django skills.  Expert: Tim Abbott
 
-- Build a system for managing useful Zulip bots entirely on the web.
+- Build a system for managing Zulip bots entirely on the web.
   Right now, there's a somewhat cumbersome process where you download
   the API bindings, create a bot with an API key, put it in
-  configuration files, etc.  We'd like to move to a move where bots
-  can develop from a quick prototype to a third-party extension to
-  being built into Zulip.  For built-in bots, one can just click a few
-  buttons of configuration on the web to set them up and start having
-  interactive bots in Zulip.  We've developed a number of example bots
+  configuration files, etc.  We'd like to move to a model where a bot
+  could easily progress from being a quick prototype to being a third-party extension to
+  being built into Zulip.  And then for built-in bots, one should be able to click a few
+  buttons of configuration on the web to set them up and include them in
+  your organization.  We've developed a number of example bots
   at `contrib_bots/` in the main Zulip repository that can be used for
   testing; the design document for the deployment part of this vision
   (likely part 1) is
@@ -320,7 +320,7 @@ CSS](http://github.com/zulip/zulip/).
   [our open settings/admin issues](https://github.com/zulip/zulip/labels/area%3A%20admin).
   **Skills recommended**: JavaScript, HTML, CSS, and an eye for visual
   design.  Experience using the Timeline tab in the Chrome developer
-  tools is useful if you want to focus on the perforamnce side of
+  tools is useful if you want to focus on the performance side of
   things.  The performance issues are primarily on the frontend, so
   Python/Django experience is less important, but still useful.
   Expert: Brock Whittaker.
@@ -339,16 +339,15 @@ CSS](http://github.com/zulip/zulip/).
 - Build out the administration pages for Zulip to let admins set a
   retention policy for when old messages should be deleted, audit
   data, etc. ...  the sorts of things needed for Zulip to be used at
-  more larger organizations.  We get constant requests for these kinds
+  larger organizations.  We get constant requests for these kinds
   of features from Zulip users.  The Zulip bug tracker has
   [almost 50 open issues](https://github.com/zulip/zulip/labels/area%3A%20admin)
   in the space of improving the Zulip administrative UI.  Many are
   little bite-size fixes in those pages, which are great for getting a
   feel for things, but a solid project here would be implementing 5-10
   of the major missing features.  The first part of this project will
-  be cleaning up the admin UI interfaces to require writing less
-  semi-duplicate code per feature than it has taken historically, to
-  make adding actual features go quickly **Skills recommended**: A
+  be refactoring the admin UI interfaces to require writing less
+  semi-duplicate code for each feature. **Skills recommended**: A
   good mix of Python/Django and HTML/CSS/JavaScript skill is ideal.
   The system for adding new features is
   [well documented](http://zulip.readthedocs.io/en/latest/new-feature-tutorial.html).
@@ -369,19 +368,19 @@ regressions.  Good ways to demonstrate qualification for this are
 finding and reporting bugs using
 [Zulip's manual UI testing guide](http://zulip.readthedocs.io/en/latest/manual-testing.html)
 and doing
-[refactoring projects](https://github.com/zulip/zulip/labels/area%3A%20provision).
+[refactoring projects](https://github.com/zulip/zulip/labels/area%3A%20refactoring).
 Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
 
 - Making Zulip's emoji experience amazing.  The most important piece
   here is making Zulip's emoji and emoji reactions pickers really nice
   and easy to use, like Slack's or Facebook's; we'd also like to build
-  a system for doing smart autocomplete, sorting the emoji that an
-  individual and their organization use the most at the top.  There's
+  a system for doing smart autocomplete, and sort the emoji that an
+  individual and their organization use the most at the top.  There are
   about
   [15 open issues](https://github.com/zulip/zulip/labels/area%3A%20emoji)
   that you can use to fill out a project.  Emoji is one of those
-  things that is heavily about the details; so this is a project that
-  is about polishing something really well, but it may still be on the
+  things that is heavy on the details; so this is a project that
+  is about polishing something really well. It may still be on the
   small side; you may want to look at other
   [compose improvements](https://github.com/zulip/zulip/labels/area%3A%20compose)
   as well.  Our
@@ -407,7 +406,7 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
   and adding other useful extensions.  The compose issues are also
   useful; read
   [our markdown docs](http://zulip.readthedocs.io/en/latest/markdown.html)
-  to learn how this works.  Expert: tim Abbott.
+  to learn how this works.  Expert: Tim Abbott.
 
 - Overhaul the Zulip website’s user experience to handle large
   organizations well (e.g. currently, the buddy list always has every
@@ -424,7 +423,7 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
 - Implement analytics so we can see how people use Zulip, see which
   features are valuable, systematically debug performance problems,
   etc.  Check out https://chat.zulip.org/stats to see what we've
-  implemented today, and read
+  implemented so far, and read
   [our analytics doc](http://zulip.readthedocs.io/en/latest/analytics.html)
   to understand how the system works.  **Skills required**: Good
   Django experience, some JavaScript/CSS experience.  Expert: Rishi
@@ -432,11 +431,11 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
 
  - Frontend analytics visualizations: we store a lot of interesting
    data about user activity, stream activity, etc. The projects will be
-   around make fun/useful visualizations of the data for users and realm
-   admins.
+   around make fun/useful visualizations of the data for users, realm
+   admins, and sys admins.
 
  - Backend analytics: There is a lot of data in our production tables and
-   server logs that would be nice to aggregate (e.g. info about stream/user
+   server logs that needs to be aggregated (e.g. info about stream/user
    activity, performance data for how fast narrowing is, etc.).
 
 - [Make it easy to import data from Slack into Zulip](https://github.com/zulip/zulip/issues/908).
@@ -448,22 +447,22 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
   full solution would involve building a full web experience, where
   one can entirely over the web create a new Zulip organization
   populated with the data from a Slack instance.  A good project would
-  have a working full import partway through the summer so that
+  have a full import working partway through the summer so that
   there's plenty of time to fix issues.  **Skills required**: Strong
   Python skills; JavaScript/CSS helpful.  Experts: Tomasz Kolek, Steve
-  Howell, Tim Abbott (depend on piece).
+  Howell, Tim Abbott (depending on piece).
 
 - Write cool new features for Zulip.  Play around with the software, browse
   [the feature suggestions that other users have
   contributed](https://github.com/zulip/zulip/labels/enhancement), and
   suggest something you’d like to build!  A great project can combine
-  3-5 significant features.  Expert: Lots, depending on feature!
+  3-5 significant features.  Experts: Lots, depending on feature!
 
 - Work on Zulip's development and testing infrastructure.  Zulip is a
   project that takes great pride in building great tools for
   development, but there's always more to do to make the experience
-  delightful.  Significantly than 10% of Zulip's open issues are ideas
-  for how to improve the project are
+  delightful.  Significantly, a full 10% of Zulip's open issues are ideas
+  for how to improve the project, and are
   [in](https://github.com/zulip/zulip/labels/area%3A%20tooling])
   [these](https://github.com/zulip/zulip/labels/area%3A%20testing-coverage)
   [four](https://github.com/zulip/zulip/labels/area%3A%20testing-infrastructure)
@@ -501,7 +500,7 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
 
 - Improve scalability and replication support to make Zulip more of a
   distributed system. Currently Zulip has reasonably good database
-  scalability but has a few technical changes need to make it possible
+  scalability but has a few technical changes needed to make it possible
   to run a Zulip installation with ultra-high availability.  It should
   be possible to change this in a summer!  There's lots of great
   reading in the
@@ -514,9 +513,10 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
 
 - Add good support and documentation for using Zulip in Docker, both
   for development and in production, so that we can recommend it as a
-  preferred was to use Zulip.  You should review all the materials
-  linked in the last section.  Or relatedly, create tooling to
-  maintain "one-click" installer for Zulip (e.g. AWS or Digital Ocean
+  preferred way to use Zulip.  You should review all the materials linked
+  [here](http://zulip.readthedocs.io/en/latest/dev-setup-non-vagrant.html#using-docker-experimental).
+  Or relatedly, create tooling to
+  maintain a "one-click" installer for Zulip (e.g. AWS or Digital Ocean
   image) to make it super easy to get started with Zulip.  **Skills
   required**: Docker and/or experience running and administering Linux
   servers.  Knowing Puppet is very helpful; some Python and shell is
@@ -533,26 +533,26 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
 - Write more API client libraries in more languages, or improve the
   ones that already exist (in python in `api/` in the Zulip server
   repo, as well as [JavaScript](https://github.com/zulip/zulip-js),
-  [PHP](https://packagist.org/packages/mrferos/zulip-php),
-  [Haskell](https://hackage.haskell.org/package/hzulip).  To make this
+  [PHP](https://packagist.org/packages/mrferos/zulip-php), and
+  [Haskell](https://hackage.haskell.org/package/hzulip)).  To make this
   a successful project, it would likely also include overhauling
-  Zulip's API documentation to have a nice markdown syntax (for
-  writing docs) and fully document all the endpoints.  **Skills
+  Zulip's API documentation to have a nice markdown syntax for
+  writing docs and fully documenting all the endpoints.  **Skills
   required**: Experience with the target language and API design.
   Expert: Depends on language :).
 
 ### React Native iOS app
 
 Code:
-[React Native mobile app)](https://github.com/zulip/zulip-mobile).
+[React Native mobile app](https://github.com/zulip/zulip-mobile).
 Experts: Neeraj Wahi, Boris Yankov.
 
 The highest priority for the Zulip project overall is improving the
 Zulip React Native mobile app.
 
-- Work an issues and polish for the app.  You can see the open issues
+- Work on issues and polish for the app.  You can see the open issues
   [here](https://github.com/zulip/zulip-mobile/issues), grouped into
-  milestones by how pressing they are.  There's several dozen open
+  milestones by how pressing they are.  There are several dozen open
   issues across the project, and likely many more problems that nobody
   has found yet; in the short term, it needs polish, bug
   finding/squashing, and debugging.  So browse the open issues, play
@@ -564,18 +564,18 @@ Zulip React Native mobile app.
   great codebase.
 - A key part of the vision for the app is building a really nice way
   to skim unread conversations, decide which to read, and be able to
-  exit (and mark as unread again) once that you want to process on
+  exit (and mark as unread again) ones that you want to process on
   the desktop really quickly.  Building and polishing this experience
-  would probably be a half project on its own; one could add to it
+  would probably be only half a project on its own, but one could add to it.
 - Make the React Native app work well and look like it has a native UI
   experience on Android.  Since React Native is designed for
   cross-platform apps, this would be less writing a ton of code and
   more polishing to make the Android-specific stuff work well (push
   notifications, back button support, etc.).
 
-A good project proposal here will bundle together a bunch a few focus
+A good project proposal here will bundle together a few focus
 areas that you want to make really great (e.g. the message composing,
-editing, and reacting experience) that you can work on over the summer.
+editing, and reacting experience), that you can work on over the summer.
 
 **Skills required**: Strong JavaScript experience, specifically React
   experience is awesome for this.  iOS or Android development/design
@@ -584,8 +584,8 @@ editing, and reacting experience) that you can work on over the summer.
   can learn it if you're motivated!  There's tons of good online
   tutorials, courses, etc.
 
-Though we don't have a lot of specific projects listed here, that's
-more because we're not confident we'll have several strong applicants
+We don't have a lot of specific projects listed here, since we aren't
+expecting to have many strong applicants
 who can program React Native.  We'd love to have multiple students
 working on this area if possible; we will extend this list if there is
 significant interest (and see the Android list for a bunch of possible
@@ -604,7 +604,7 @@ Code:
   details on what this means, since it's basically the same idea for
   Android.  This is probably the most complex project idea, since it
   will likely require a lot of changes to how the database works, but
-  it'd have a big impact on how nice Zulip is for larger projects.
+  it'd have a big impact on how nice Zulip is for larger organizations.
 - Giving the app a really nice onboarding experience.  Right now, we
   don't teach users how to use the app, logging in can involve typing
   your password on a phone in the absence of Google auth for the
@@ -647,7 +647,7 @@ of multiple Zulip teams.  Currently, the Zulip desktop apps are a
 great experience if you are using just one Zulip server, but many
 users, especially those in the Zulip development community, use
 multiple Zulip servers.  We need to build a nice set of options for
-how users can manage being logged into multipl Zulip organizations.
+how users can manage being logged into multiple Zulip organizations.
 There are 2 models: multiple running copies of the app (with different
 icons in alt-tab for each organization), and a single window that
 shows unread counts for multiple Zulip organizations.  We recommend
@@ -671,21 +671,18 @@ understand how it works is doable.
 
 Good preparation for either project is to (1) try out the app and see
 if you can find bugs or polish problems lacking open issues and report
-them and (2) be to fix some polish issues in either the Electron app
+them and (2) fix some polish issues in either the Electron app
 or the Zulip web frontend (which is used by the electron app).
 
 ## Circulating proposals (February-April 2017)
 
 If you're applying to GSoC, we'd like for you to publicly post a few
 sections of your proposal -- the project summary, list of
-deliverables, and timeline -- someplace public on the Web, such as on
-your blog, sometime in February, March, or early April 2017. That way,
+deliverables, and timeline -- some place public on the Web,
+sometime in February, March, or early April 2017. That way,
 the whole developer community -- not just the mentors and
 administrators -- have a chance to give you feedback and help you
-improve your proposal. This makes it easier for the whole community to
-give feedback and help you iterate. And it makes it easier for us to
-know who's applying, how many people are applying, and what they're
-interested in.
+improve your proposal.
 
 Where should you publish your draft? Google Docs, your blog, Etherpad,
 Dropbox Paper, Medium, Dreamwidth, whatever -- any platform that
@@ -703,4 +700,3 @@ list of deliverables is fine for the first draft of this sort of thing.
 We hope to hear from you! And thanks for being interested in
 Zulip. We're always happy to help volunteers get started contributing
 to our open source project, whether or not they go through GSoC.
-
