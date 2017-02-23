@@ -47,7 +47,7 @@ highly interactive, with a real focus on teaching you the concepts and
 reasoning behind how Zulip is engineered and how to make it better.
 
 As part of that commitment, Zulip has over 80,000 words of
-[documentation for developers](zulip.readthedocs.io/en/latest/).
+[documentation for developers](https://zulip.readthedocs.io/en/latest/).
 
 ## Getting started
 
