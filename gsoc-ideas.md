@@ -217,7 +217,7 @@ particular tools are likely to be important for a given project.
 
 For all of our projects, an important skill to develop is a good command
 of Git; read
-[our Git Guide](zulip.readthedocs.io/en/latest/git-guide.html) to
+[our Git Guide](https://zulip.readthedocs.io/en/latest/git-guide.html) to
 learn how to use it well.
 
 ### Full stack and web frontend focused projects
