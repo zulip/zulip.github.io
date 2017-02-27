@@ -1,12 +1,6 @@
 # Google Summer of Code 2017
 
-Zulip participated in GSoC 2016 and mentored three students officially
-(and 4 more who did their proposed projects unofficially). We do
-intend to ask Google Summer of Code to allow us to mentor again in
-2017, but we have no guarantees as to whether we'll be accepted or
-rejected as an organization (although we have no particular reason to
-believe we'll be rejected.) We'll know by 27 February 2017 whether
-we'll be mentoring for GSoC 2017.
+Zulip [is a mentoring organization in GSoC 2017](https://summerofcode.withgoogle.com/organizations/6508216277008384/).
 
 If you want to apply for GSoC 2017, a great way to get started is to
 skim [the official GSoC
@@ -48,6 +42,10 @@ reasoning behind how Zulip is engineered and how to make it better.
 
 As part of that commitment, Zulip has over 80,000 words of
 [documentation for developers](https://zulip.readthedocs.io/en/latest/).
+
+Zulip participated in GSoC 2016 and mentored three students officially
+(and 4 more who did their proposed projects unofficially). We've also
+mentored three Outreachy interns and dozens of Google Code-In participants.
 
 ## Getting started
 
