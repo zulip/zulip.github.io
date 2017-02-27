@@ -539,6 +539,19 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
   required**: Experience with the target language and API design.
   Expert: Depends on language :).
 
+- Develop [**@zulipbot**](https://github.com/zulip/zulipbot), the GitHub
+workflow bot for the Zulip organization and its repositories. By utilizing the
+[GitHub API](https://developer.github.com/v3/),
+[**@zulipbot**](https://github.com/zulipbot) improves the experience of Zulip
+contributors by managing the issues and pull requests in the Zulip repositories,
+such as assigning issues to contributors and appropriately labeling issues with
+their current status to help contributors gain a better understanding of which
+issues are being worked on. Since the project is in its early stages of
+development, there are a variety of possible tasks that can be done, including
+adding new features, writing unit tests and creating a testing framework, and
+writing documentation. **Skills required**: Node.js, ECMAScript 6, and API
+experience. Expert: Cynthia Lin, Joshua Pan.
+
 ### React Native iOS app
 
 Code:
