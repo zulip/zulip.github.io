@@ -231,6 +231,10 @@ apps, or other code that integrates with Zulip.
   application](https://github.com/zulip/zulip-electron) with better
   design, notifications, and cooler desktop integrations.
 
+* Improving and developing [**@zulipbot**](https://github.com/zulip/zulipbot),
+the GitHub workflow bot for the Zulip organization and its repositories, by
+adding new features, writing unit tests and creating a testing framework, and
+writing documentation.
 
 # Initial contribution ideas
 
