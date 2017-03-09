@@ -338,9 +338,12 @@ CSS](http://github.com/zulip/zulip/).
   retention policy for when old messages should be deleted, audit
   data, etc. ...  the sorts of things needed for Zulip to be used at
   larger organizations.  We get constant requests for these kinds
-  of features from Zulip users.  The Zulip bug tracker has
-  [almost 50 open issues](https://github.com/zulip/zulip/labels/area%3A%20settings%20%28admin%2Forg%29)
-  in the space of improving the Zulip administrative UI.  Many are
+  of features from Zulip users.  The Zulip bug tracker has almost 50 open issues(
+  [settings (admin/org)](https://github.com/zulip/zulip/labels/area%3A%20settings%20%28admin%2Forg%29),
+  [settings UI](https://github.com/zulip/zulip/labels/area%3A%20settings%20UI),
+  [settings (user)](https://github.com/zulip/zulip/labels/area%3A%20settings%20%28user%29),
+  [stream settings](https://github.com/zulip/zulip/labels/area%3A%20stream%20settings)
+  ) in the space of improving the Zulip administrative UI.  Many are
   little bite-size fixes in those pages, which are great for getting a
   feel for things, but a solid project here would be implementing 5-10
   of the major missing features.  The first part of this project will
