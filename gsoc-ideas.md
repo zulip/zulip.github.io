@@ -239,7 +239,7 @@ CSS](http://github.com/zulip/zulip/).
   [integration documentation](https://chat.zulip.org/integrations/)
   are useful materials for learning about how things currently work,
   and
-  [the integrations label on GitHub](https://chat.zulip.org/integrations/)
+  [the integrations label on GitHub](https://github.com/zulip/zulip/labels/area%3A%20integrations)
   has a bunch of good starter issues to demonstrate your skills if
   you're interested in this area.  Expert: Tomasz Kolek.
 
