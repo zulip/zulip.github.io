@@ -464,7 +464,7 @@ Expert: Tommy Ip, Brock Whittaker, Tim Abbott.
   development, but there's always more to do to make the experience
   delightful.  Significantly, a full 10% of Zulip's open issues are ideas
   for how to improve the project, and are
-  [in](https://github.com/zulip/zulip/labels/area%3A%20tooling])
+  [in](https://github.com/zulip/zulip/labels/area%3A%20tooling)
   [these](https://github.com/zulip/zulip/labels/area%3A%20testing-coverage)
   [four](https://github.com/zulip/zulip/labels/area%3A%20testing-infrastructure)
   [labels](https://github.com/zulip/zulip/labels/area%3A%20provision)
