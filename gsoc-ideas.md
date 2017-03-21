@@ -610,45 +610,26 @@ Native development using the Android development environment.
 
 ### Android projects
 
-Code:
-[Android app written in Java](https://github.com/zulip/zulip-android).  Experts: Lisa Neigut, Kunal Gupta, Saumya Bhatnagar.
+We are merging the Zulip Android and iOS development communities, to
+focus on our [React Native app](https://github.com/zulip/zulip-mobile)
+codebase. We’ve found with the iOS React Native project that we’ve been
+able to build an app that performs well using the platform, and the
+benefits of being able to share a codebase (so that we only have to
+implement each feature and design each detail once) are huge, and
+outweigh the advantages of continuing to invest in the existing,
+more mature Java Android app.
 
+So, in preparation for Google Summer of Code applications opening on
+March 20th, we’re planning to merge the communities now so that we can
+direct students interested in Android to propose projects for the React
+Native app.  Our goal is to have the best possible Zulip Android app by
+the end of the summer, and we think the best way to achieve that is to
+combine the efforts of both the Zulip iOS/React Native developers and
+the Zulip Java/Android development team on a single app codebase.
 
-- Good multi-account support; see the Electron app description for
-  details on what this means, since it's basically the same idea for
-  Android.  This is probably the most complex project idea, since it
-  will likely require a lot of changes to how the database works, but
-  it'd have a big impact on how nice Zulip is for larger organizations.
-- Giving the app a really nice onboarding experience.  Right now, we
-  don't teach users how to use the app, logging in can involve typing
-  your password on a phone in the absence of Google auth for the
-  Zulip server, and we don't have any cute illustrations to make the
-  app feel especially friendly.
-- Adding features to give the app parity with the webapp in terms of
-  what you can do, e.g. settings management, subscriptions management,
-  pinning streams, emoji reactions, etc.
-- Building an advanced search UI to make it easy to construct complex
-  searches on a phone using all the Zulip search operators.
-- Combining together a bunch of polish issues in the Zulip Android app
-  project; there's a lot that could be a little bit nicer (typeaheads,
-  etc.).
-- Optimize the loading messages performance. The Zulip android app
-  already performs fairly well once the messages has been loaded, but
-  it takes a bit of time to load the messages on app startup. Improve
-  the performance so that for loading messages, it doesn't take much
-  time; this would require both profiling (for Java perf issues) and
-  adjusting the strategy for how messages are loaded from the server.
-- Display messages even when the app is in offline mode. The Zulip
-  android app do not display the old stored messages when the
-  application is started in offline mode. Caching old messages would
-  be to use a long-lived event queue with the server, which could
-  allow to cache thousands of messages of history (and maintain it
-  over time through other users editing messages).
-
-A good project will likely combine several of these feature ideas.
-
-**Skills required**: Experience with Android development.
-
+The detailed plan is in [this document](https://paper.dropbox.com/doc/Zulip-Android-plan-draft-1ucRhuH9LMNooR7WMsJ37),
+which also covers important FAQ for anyone interested in doing GSoC on
+Zulip mobile apps.
 
 ### Electron Desktop projects
 
