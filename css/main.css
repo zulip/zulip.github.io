@@ -42,7 +42,7 @@ h2 {
 h3 {
 	font-size: 1.1em;
 	color: #333;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 h4 {
@@ -184,6 +184,11 @@ footer #logo {
 
 .button-link {
 	margin: 0 5px;
+	color: #3276b1;
+}
+
+.button-link:hover {
+	color: #005580;
 }
 
 .button:hover {
@@ -202,22 +207,25 @@ footer #logo {
 .features {
 	text-align: center;
 	/* background-color: #ddedf6; */
-	background: #ddedf6;
+	/*background: #ddedf6;*/
 	padding: 0 0;
-	border-top: 1px solid #ccc;
+	/*border-top: 1px solid #ccc;*/
 }
 
 .features h2 {
-	padding: 20px;
+	padding: 20px 20px 25px;
 	margin: 0;
+	font-size: 20px;
 }
 
 .features section {
 	text-align: left;
 	overflow: auto;
 	margin: 0 auto;
-	border-top: 1px solid #ccc;
-	padding: 20px;
+	/*border-top: 1px solid #ccc;*/
+	padding: 30px 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
 
 .features section:nth-of-type(1) {
@@ -239,6 +247,12 @@ footer #logo {
 	width: 450px;
 	max-width: 100%;
 	margin: 0 auto;
+}
+
+.feature-box h3 {
+	font-size: 1.27em;
+	color: #24292e;
+	font-weight: 600;
 }
 
 .features img {
