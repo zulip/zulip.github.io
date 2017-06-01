@@ -194,6 +194,10 @@ apps, or other code that integrates with Zulip.
   - [zulip.org](https://zulip.org/)
   - Zulip's web app
 
+* Improving and redesigning Zulip's UI/UX. These will include:
+  - [zulip.org](https://zulip.org/)
+  - Zulip's web app
+
 * Merging some of our Django extensions into upstream -- Zulip has
   several cool extensions and/or monkey-patchings we do to improve the
   Django web framework for our users, and several of these would make
