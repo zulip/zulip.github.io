@@ -69,28 +69,21 @@
 	  list</a> for help.</p>
           <p>
           <p><b>WARNING</b>: This automated installation process
-          expects to be the only thing running on a server (it uses
-          Puppet, etc.).  It's likely additional installation options
-          will be implemented by the community over the coming weeks
-          (both in terms of distros and methods).  If you'd like to
-          hear about these sorts of things as they become available,
-          sign up for
-          the <a href="https://groups.google.com/forum/#!forum/zulip-announce">Zulip
-          announcement list</a>.  Finally, note that
-          the <a href="http://chat.zulip.org/">developers' chatroom
-          (a running Zulip instance)</a> or the
+          expects to be the only thing running on a server (it may
+          conflict with configuration for other things using
+          postgres/nginx/redis/memcached).
+
+          Also, note that
+          the <a href="http://chat.zulip.org/">developers' chatroom (a
+          running Zulip instance)</a> and the
           <a href="https://zulip.readthedocs.io/en/latest/dev-overview.html">Zulip
-          development environment</a> may be a better choice if you
-          just want to play around with Zulip and aren't ready to
-          commit to setting up a production server with SSL
-          certificates, secure authentication, etc.
+          development environment</a> are great choices if you just
+          want to play around with Zulip and don't want to deal with
+          SSL certificates.
 	  <p>
 	  <p>You can run a Zulip server for a small site on a system
 	  with 2G of RAM, but for production use with more than a few
-	  dozen users, we recommend a system with 4GB of RAM or more.
-	  (Decreasing this should be very doable and
-	  is <a href="https://github.com/zulip/zulip/issues/34">being
-	  tracked on GitHub</a>).</p>
+	  dozen users, we recommend a system with 4GB of RAM.</p>
           <p>
           <p>You will also need to have an SSL certificate available
           and email credentials needed to send outgoing email (the
