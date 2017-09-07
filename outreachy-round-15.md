@@ -1,11 +1,11 @@
-Zulip is a proud participant in [Outreachy](https://www.gnome.org/outreachy/) and
+Zulip is a proud participant in [Outreachy](https://www.outreachy.org/) and
 is currently helping new open source contributors apply to be
 Outreachy interns for the upcoming December 2017 round. We'll teach you and pay
 you to improve Zulip, full-time, between December 5, 2017 and March 5,
 2018.
 
 If you're [in a group underrepresented in open source
-communities](https://wiki.gnome.org/Outreachy#Eligibility) and you're
+communities](https://www.outreachy.org/apply/eligibility/) and you're
 interested in contributing to Zulip during a paid apprenticeship,
 please apply by the October deadline!
 
@@ -47,7 +47,7 @@ the topic, and a few sentences about your background and interests.
 
 Our Outreachy application process opens mid-September and closes
 mid-October. [You'll follow the instructions
-here](https://wiki.gnome.org/Outreachy#Application_Process).
+here](https://www.outreachy.org/apply).
 
 Your application should include the following:
 
@@ -74,8 +74,7 @@ be skilled in writing in English for a non-academic audience, and to
 be interested in getting feedback that will help them write accurately
 and accessibly about technology.
 
-As the [application process
-guide](https://wiki.gnome.org/Outreachy#Application_Process) says:
+As the [application process guide](https://www.outreachy.org/apply) says:
 
 "While only one contribution is required to be considered for the
 program, we find that the strongest applicants make multiple
