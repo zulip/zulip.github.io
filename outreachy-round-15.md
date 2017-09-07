@@ -138,6 +138,11 @@ apps, or other code that integrates with Zulip.
   iOS. This is a pressing need for us, since our current iOS app is
   very out of date.
 
+* Lots of projects on the
+  [core Zulip server and web frontend](https://github.com/zulip/zulip/).
+  The backend is written in Python and uses the Django framework, and the
+  frontend is written in vanilla jQuery/javascript.
+
 * Merging some of our Django extensions into upstream -- Zulip has
   several cool extensions and/or monkey-patchings we do to improve the
   Django web framework for our users, and several of these would make
