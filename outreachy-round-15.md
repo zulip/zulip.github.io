@@ -173,7 +173,7 @@ apps, or other code that integrates with Zulip.
 # Initial contribution ideas
 
 Check out our [bite-sized
-bugs](https://github.com/zulip/zulip/labels/bite%20size). If none of
+bugs](https://github.com/zulip/zulip/labels/good%20first%20issue). If none of
 those work for you, drop in on our [open
 livechat](https://chat.zulip.org/#narrow/stream/Outreachy.202017-2018)
 and compose a new stream message to the 'Outreachy 2017-2018' stream
