@@ -223,7 +223,7 @@ footer #logo {
 	overflow: auto;
 	margin: 0 auto;
 	/*border-top: 1px solid #ccc;*/
-	padding: 30px 20px;
+	padding: 40px 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
@@ -231,8 +231,6 @@ footer #logo {
 .features section:nth-of-type(1) {
 	border-bottom: 0px solid #ccc;
 	border-top: 0;
-	padding-top: 0;
-	margin-top: 0;
 }
 
 .features section:nth-of-type(even) {
@@ -281,7 +279,7 @@ footer #logo {
 
 article {
 	text-align: center;
-	padding: 10px 0;
+	padding: 36px 0;
 }
 
 .docs article a {
