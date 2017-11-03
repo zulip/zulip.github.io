@@ -1,6 +1,6 @@
 zulip.github.io
 ===============
-[zulip.org](https://zulip.org/) website
+Legacy [zulip.org](https://zulip.org/) website.  No longer used for anything.
 
 License
 =======
