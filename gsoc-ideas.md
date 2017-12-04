@@ -53,7 +53,7 @@ We have an easy-to-setup development environment, and a library of
 tasks that are great for first-time contributors
 ([guide](https://github.com/zulip/zulip#ways-to-contribute)). Take
 a look at [our architectural overview and key
-concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
+concepts](https://zulip.readthedocs.io/en/latest/overview/architecture-overview.html).
 
 Then: use
 [our first-time Zulip developer guide](https://zulip.readthedocs.io/en/latest/dev-env-first-time-contributors.html)
