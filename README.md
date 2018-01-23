@@ -24,3 +24,4 @@ The software includes some works released by third parties under other
 free and open source licenses. Those works are redistributed under the
 license terms under which the works were received. For more details,
 see the ``THIRDPARTY`` file included with this distribution.
+there must be more projects like that on Zulip it was a good thing
