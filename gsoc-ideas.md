@@ -1,8 +1,10 @@
-# Google Summer of Code 2017
+# Google Summer of Code 2018
 
-Zulip [is a mentoring organization in GSoC 2017](https://summerofcode.withgoogle.com/organizations/6508216277008384/).
+Zulip
+[was a mentoring organization for GSoC 2017 with 14 students](https://summerofcode.withgoogle.com/organizations/6508216277008384/)
+and 2016, and we plan to participate in GSoC again in 2018.
 
-If you want to apply for GSoC 2017, a great way to get started is to
+If you want to apply for GSoC 2018, a great way to get started is to
 skim [the official GSoC
 resources](https://developers.google.com/open-source/gsoc/resources/)
 -- especially [the student
@@ -10,11 +12,11 @@ manual](https://developers.google.com/open-source/gsoc/resources/manual).
 
 And keep your eye on [the GSoC
 timeline](https://developers.google.com/open-source/gsoc/timeline). The
-student application deadline is 3 April 2017.
+student application deadline is March 27, 2018.
 
 ## About us
 
-[Zulip](https://www.zulip.org) is a powerful, open source group chat
+[Zulip](https://www.zulip.org) is a powerful, open source team chat
 application. The core web app is written in Python and uses the Django
 framework. We also make a cross-platform mobile app, an Android app, a
 cross-platform desktop app, and many service integrations, all open
@@ -26,12 +28,12 @@ image previews, group private messages, audible notifications,
 missed-message emails, desktop apps, and [much
 more](https://www.zulip.org/features.html).
 
-Zulip has gained a considerable amount of traction [since we released
-it as open source software in September
-2015](https://blogs.dropbox.com/tech/2015/09/open-sourcing-zulip-a-dropbox-hack-week-project/),
-and is gaining more users at a rapid pace -- every day, at least tens
-of thousands of people use Zulip. Your work on Zulip will have impact
-on the daily experiences of a huge number of people.
+Zulip has gained a considerable amount of traction
+[since Dropbox released it as open source software in September 2015](https://blogs.dropbox.com/tech/2015/09/open-sourcing-zulip-a-dropbox-hack-week-project/),
+with contributions from over 400 volunteers from all around the world
+(note: Dropbox is no longer involved in the project).  Thousands of
+people use Zulip every single day, and your work on Zulip will have
+impact on the daily experiences of a huge number of people.
 
 As an organization, we value high-quality mentorship and making sure our
 product quality is extremely high -- you can expect to learn a lot from
@@ -40,12 +42,23 @@ group chat product, your GSoC experience with the Zulip project will be
 highly interactive, with a real focus on teaching you the concepts and
 reasoning behind how Zulip is engineered and how to make it better.
 
-As part of that commitment, Zulip has over 80,000 words of
-[documentation for developers](https://zulip.readthedocs.io/en/latest/).
+As part of that commitment, Zulip has over 100,000 words of
+[documentation for developers](https://zulip.readthedocs.io/en/latest/),
+much of it designed to explain not just how Zulip works, but why it
+works the way that it does.
 
 Zulip participated in GSoC 2016 and mentored three students officially
-(and 4 more who did their proposed projects unofficially). We've also
-mentored three Outreachy interns and dozens of Google Code-In participants.
+(and 4 more who did their proposed projects unofficially).  In 2017,
+we had 14 official students (and 3 more who did their projects
+unofficially).  We've also mentored five Outreachy interns and
+hundreds of Google Code-In participants (several of who are major
+contributors to the project today).
+
+### Expectations for GSoC students
+
+[Our document for new summer students](https://paper.dropbox.com/doc/How-to-have-an-amazing-summer-with-Zulip-LVivDGh0rd9wXz1sIAREK)
+has a lot of useful advice on how we expect students to interact,
+above and beyond what is discussed in Google's materials.
 
 ## Getting started
 
@@ -61,9 +74,10 @@ to get your Zulip development environment set up. If you have any
 trouble, please speak up in
 [#GSoC](https://chat.zulip.org/#narrow/stream/GSoC) on
 [the Zulip development community server](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
-(use your name as the topic), or post to
-[our GSoC mailing list](https://groups.google.com/forum/#!forum/zulip-gsoc),
-and we'll help you out.
+(use your name as the topic).  We have a
+[GSoC mailing list](https://groups.google.com/forum/#!forum/zulip-gsoc),
+but we much prefer to engage with students interactively via Zulip,
+since essentially all project interactions are done via Zulip, not email.
 
 Once you've gotten set up, take a look at [our architectural overview
 and key
@@ -84,11 +98,14 @@ which has a lot of advice about how to do things like rebase your code.
 
 # Application tips, and how to be a strong candidate
 
-You'll be following [GSoC's application process
-instructions](https://developers.google.com/open-source/gsoc/). And
-we'll be asking you to make at least one small initial pull request
-before the application deadline (3 April 2017), to help us assess you
-as a developer.
+You'll be following
+[GSoC's application process instructions](https://developers.google.com/open-source/gsoc/). And
+we'll be asking you to make at least one successful pull request
+before the application deadline, to help us assess you as a developer.
+Most students who we accept have 5 or more pull requests merged or
+nearly merged (usually including at least one that is significant,
+e.g. having 100+ lines of changes or that shows you have done
+significant debugging).
 
 Getting started earlier is better, so you have more time to learn,
 make contributions, and make a good proposal.
@@ -102,9 +119,10 @@ Your application should include the following:
   existing open source or open culture contributions you've made and
   any bug reports you've submitted to open source projects.
 * Some notes on what you are hoping to get out of your twelve-week project.
-* A description of the project you'd like to do, and why you're excited about it.
+* A description of the project you'd like to do, and why you're
+excited about it.
 * Some notes on why you're excited about working on Zulip.
-* A link to the small initial contribution(s) you did.
+* A link to the initial contribution(s) you did.
 
 We expect applicants to either have experience with the technologies
 relevant to their project or have strong programming experience.  We
@@ -120,7 +138,7 @@ application deadline.
 
 We are more interested in candidates if we see them submitting good
 contributions to Zulip projects, helping other applicants on GitHub
-and on our mailing lists and in
+and on
 [chat.zulip.org](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
 learning from our suggestions,
 [trying to solve their own obstacles and then asking well-formed questions](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html),
@@ -164,18 +182,15 @@ mentoring which projects based in part on who is a good fit for the
 needs of each student as well as technical expertise.  You can reach
 us via [#GSoC](https://chat.zulip.org/#narrow/stream/GSoC) on
 [the Zulip development community server](http://zulip.readthedocs.io/en/latest/chat-zulip-org.html),
-(compose a new stream message with your name as the topic), or
-through
-[our GSoC mailing list](https://groups.google.com/forum/#!forum/zulip-gsoc),
-and we'll help you out.
+(compose a new stream message with your name as the topic).
 
-Zulip operates under group mentorship.  That means you can contact
-anyone, not just the person assigned to you, for assistance.  Our
-preferred approach is to just post in a public stream on
-chat.zulip.org and someone will help you.  We list the Zulip
-contributors who are experts for various projects by name below; they
-will likely be able to provide you with the best feedback on your
-proposal.
+Zulip operates under group mentorship.  That means you should
+generally post in public streams on chat.zulip.org, not send private
+messages, for assistance.  Our preferred approach is to just post in a
+public stream on chat.zulip.org and someone will help you.  We list
+the Zulip contributors who are experts for various projects by name
+below; they will likely be able to provide you with the best feedback
+on your proposal (feel free to @-mention them in your Zulip post).
 
 However, the first and most important thing to do for building a
 strong application is to show your skills by contributing to a large
@@ -185,7 +200,8 @@ happy to consider work in other open source projects).  The quality of
 your best work is more important to us than the quantity; so be sure
 to test your work before submitting it for review and follow our
 coding guidelines (and don't worry if you make mistakes in your first
-few contributions!  Everyone makes mistakes getting started).
+few contributions!  Everyone makes mistakes getting started.  Just
+make sure you don't make the same mistakes next time).
 
 Once you have several PRs merged (or at least one significant PR
 merged), you should start discussing with the Zulip development
@@ -215,8 +231,31 @@ particular tools are likely to be important for a given project.
 
 For all of our projects, an important skill to develop is a good command
 of Git; read
-[our Git Guide](https://zulip.readthedocs.io/en/latest/git-guide.html) to
-learn how to use it well.
+[our Git Guide](https://zulip.readthedocs.io/en/latest/git/overview.html) to
+learn how to use it well.  Of particular importance is mastering using
+Git rebase so that you can construct commits that are clearly correct
+and explain why they are correct.
+
+### Focus areas
+
+In 2018, we are particularly interested in the few GSoC students who
+strong skills at visual design, HTML/CSS, React Native mobile
+development, and Electron.  So if you're a student with those skills
+and are looking for an organization to join, we'd love to talk to you!
+
+The Zulip project has a huge surface area, so even when we're focused
+on something, a huge amount of essential work goes into other parts of
+the project.  Every area of Zulip could benefit from the work of a
+student with strong programming skills; so don't feel discouraged if
+the areas mentioned above are not your main strength.
+
+As a data point, in Summer 2017, we had 4 students working on the
+React Native mobile app (1 focused primarily on visual design), 1 on
+the Electron Desktop app, 2 on bots/integrations, 1 on webapp visual
+design, and the remaining 6 on various other parts of backend and core
+webapp (e.g. two students in 2017 worked primarily on our development
+tooling and automated testing infrastructure, which was hugely
+important to productivity of everyone else).
 
 ### Full stack and web frontend focused projects
 
@@ -555,7 +594,7 @@ adding new features, writing unit tests and creating a testing framework, and
 writing documentation. **Skills required**: Node.js, ECMAScript 6, and API
 experience. Expert: Cynthia Lin, Joshua Pan.
 
-### React Native iOS app
+### React Native mobile app
 
 Code:
 [React Native mobile app](https://github.com/zulip/zulip-mobile).
@@ -581,11 +620,6 @@ Zulip React Native mobile app.
   exit (and mark as unread again) ones that you want to process on
   the desktop really quickly.  Building and polishing this experience
   would probably be only half a project on its own, but one could add to it.
-- Make the React Native app work well and look like it has a native UI
-  experience on Android.  Since React Native is designed for
-  cross-platform apps, this would be less writing a ton of code and
-  more polishing to make the Android-specific stuff work well (push
-  notifications, back button support, etc.).
 
 A good project proposal here will bundle together a few focus
 areas that you want to make really great (e.g. the message composing,
@@ -605,62 +639,24 @@ working on this area if possible; we will extend this list if there is
 significant interest (and see the Android list for a bunch of possible
 features).
 
-You don't need an iOS device to work on this, since one can do React
-Native development using the Android development environment.
-
-### Android projects
-
-We are merging the Zulip Android and iOS development communities, to
-focus on our [React Native app](https://github.com/zulip/zulip-mobile)
-codebase. We’ve found with the iOS React Native project that we’ve been
-able to build an app that performs well using the platform, and the
-benefits of being able to share a codebase (so that we only have to
-implement each feature and design each detail once) are huge, and
-outweigh the advantages of continuing to invest in the existing,
-more mature Java Android app.
-
-So, in preparation for Google Summer of Code applications opening on
-March 20th, we’re planning to merge the communities now so that we can
-direct students interested in Android to propose projects for the React
-Native app.  Our goal is to have the best possible Zulip Android app by
-the end of the summer, and we think the best way to achieve that is to
-combine the efforts of both the Zulip iOS/React Native developers and
-the Zulip Java/Android development team on a single app codebase.
-
-The detailed plan is in
-[this document](https://github.com/zulip/zulip-android/blob/master/android-strategy.md),
-which also covers important FAQ for anyone interested in doing GSoC on
-Zulip mobile apps.
-
 ### Electron Desktop projects
 
 Code:
 [cross-platform desktop app written in JavaScript on Electron](https://github.com/zulip/zulip-electron).
 Expert: Akash Nimare
 
-- Make the Zulip user experience great for individuals who are members
-of multiple Zulip teams.  Currently, the Zulip desktop apps are a
-great experience if you are using just one Zulip server, but many
-users, especially those in the Zulip development community, use
-multiple Zulip servers.  We need to build a nice set of options for
-how users can manage being logged into multiple Zulip organizations.
-There are 2 models: multiple running copies of the app (with different
-icons in alt-tab for each organization), and a single window that
-shows unread counts for multiple Zulip organizations.  We recommend
-first learning Electron, if you don't know it yet, and then
-contributing to a few minor issues.  The Electron desktop app is only
-about 2000 lines of JavaScript code, so reading the entire codebase to
-understand how it works is doable.
+We recommend first learning Electron, if you don't know it yet, and
+then contributing to a few minor issues.  The Electron desktop app is
+only a few thousand lines of JavaScript code, so reading the entire
+codebase to understand how it works is doable.
 
-- Improve our experimental
+- Improve our
   [Electron-based desktop client application](https://github.com/zulip/zulip-electron)
   with better design, notifications, and cooler desktop integrations.
   There's a few dozen open issues across the project, and likely many
   more problems that nobody has found yet; mostly it needs polish and
   cross-platform issue debugging.  So browse the open issues and get
-  involved!  This is still a relatively early-stage project, so in a
-  lot of ways the project is really "help build the Zulip Electron
-  app".  Goals include parity with the old QT app and Slack's app.
+  involved!
 
 **Skills required**: JavaScript experience, Electron experience.  You
   can learn electron as part of your application!
@@ -670,7 +666,7 @@ if you can find bugs or polish problems lacking open issues and report
 them and (2) fix some polish issues in either the Electron app
 or the Zulip web frontend (which is used by the electron app).
 
-## Circulating proposals (February-April 2017)
+## Circulating proposals (February-March 2017)
 
 If you're applying to GSoC, we'd like for you to publicly post a few
 sections of your proposal -- the project summary, list of
@@ -680,17 +676,21 @@ the whole developer community -- not just the mentors and
 administrators -- have a chance to give you feedback and help you
 improve your proposal.
 
-Where should you publish your draft? Google Docs, your blog, Etherpad,
-Dropbox Paper, Medium, Dreamwidth, whatever -- any platform that
+Where should you publish your draft?  We prefer Dropbox Paper or
+Google Docs (or even just a message in Zulip), since those platforms
 allows people to look at the text without having to log in or download
-a particular app, and that lets you update the draft as you improve
-your idea, would be fine. And then please start a new email thread (on
-[the Zulip GSoC email
-list](https://groups.google.com/forum/#!forum/zulip-gsoc)) with a link
-to what you've written, and we'll start giving you feedback!
+a particular app, and you can update the draft as you improve your
+idea.  In either case, you should post the draft for feedback in
+chat.zulip.org.
 
-Rough is fine! A paragraph of project description and a small bulleted
-list of deliverables is fine for the first draft of this sort of thing.
+Rough is fine! The ideal first draft to get feedback from the
+community on should include primarily (1) links to your contributions
+to Zulip (or other projects) and (2) a paragraph or two explaining
+what you plan to work on.  Your friends are likely better able to help
+you improve the sections of your application explaining who you are,
+and this helps the community focus feedback on the areas you can most
+improve (e.g. either doing more contributions or adjusting the project
+plan).
 
 
 We hope to hear from you! And thanks for being interested in
