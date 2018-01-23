@@ -69,7 +69,7 @@ a look at [our architectural overview and key
 concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts).
 
 Then: use
-[our first-time Zulip developer guide](https://zulip.readthedocs.io/en/latest/dev-env-first-time-contributors.html)
+[our first-time Zulip developer guide](https://zulip.readthedocs.io/en/latest/overview/contributing.html#your-first-codebase-contribution)
 to get your Zulip development environment set up. If you have any
 trouble, please speak up in
 [#GSoC](https://chat.zulip.org/#narrow/stream/GSoC) on
@@ -81,10 +81,10 @@ since essentially all project interactions are done via Zulip, not email.
 
 Once you've gotten set up, take a look at [our architectural overview
 and key
-concepts](https://zulip.readthedocs.io/en/latest/architecture-overview.html#usage-assumptions-and-concepts). Then
+concepts](https://zulip.readthedocs.io/en/latest/overview/architecture-overview.html#zulip-architectural-overview). Then
 look through our library of tasks that are great for first-time
 contributors
-([guide](https://github.com/zulip/zulip#ways-to-contribute)), and
+([guide](https://github.com/zulip/zulip/blob/master/CONTRIBUTING.md#ways-to-contribute)), and
 comment on an issue that appeals to you with a comment like "I'm going to work on
 this." Then start working on it! If you have any setbacks or you get
 stuck, [tell us what you're trying to do and what you've already
